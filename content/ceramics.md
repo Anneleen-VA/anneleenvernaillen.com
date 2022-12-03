@@ -1,6 +1,6 @@
 ---
 image:
-  src: 'header/ceramics-header.png'
+  src: 'header-imgs/ceramics-header.png'
 ---
 
 # Ceramics

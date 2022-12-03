@@ -1,6 +1,6 @@
 ---
 image:
-  src: 'header/news-header.png'
+  src: 'header-imgs/news-header.png'
 ---
 
 

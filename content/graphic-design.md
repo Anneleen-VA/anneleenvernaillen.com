@@ -1,6 +1,6 @@
 ---
 image:
-  src: 'header/graphics-header.png'
+  src: 'header-imgs/graphics-header.png'
 ---
 
 # Graphic Design

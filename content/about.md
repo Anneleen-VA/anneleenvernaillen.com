@@ -1,6 +1,6 @@
 ---
 image:
-  src: 'header/about-header.png'
+  src: 'header-imgs/about-header.png'
 ---
 
 # This is me

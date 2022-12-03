@@ -1,6 +1,6 @@
 ---
 image:
-  src: 'header/wall-art-header.png'
+  src: 'header-imgs/wall-art-header.png'
 ---
 
 # Photographic Observations. Interpretations

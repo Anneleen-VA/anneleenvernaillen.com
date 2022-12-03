@@ -1,6 +1,6 @@
 ---
 image:
-  src: 'header/art-initiation-header.png'
+  src: 'header-imgs/art-initiation-header.png'
 ---
 
 # Control versus spontaneity

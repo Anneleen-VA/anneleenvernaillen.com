@@ -1,5 +1,5 @@
 ---
 image:
-  src: 'header/home-header.png'
+  src: 'header-imgs/home-header.png'
 ---
 # Contact
