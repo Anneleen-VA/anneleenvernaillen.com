@@ -20,7 +20,7 @@ const navbarCollapseClass = computed(() => {
         <div class="max-w-full pt-20 sm:pt-0">
           <router-link to="/">
             <nuxt-img
-              src="/avembleem-temp.png"
+              src="avembleem.png"
               class="h-[96px] pr-0 sm:pr-[32px] lg:pr-[40px] max-w-none mx-auto md:mx-0"
             />
           </router-link>
