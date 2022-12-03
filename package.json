@@ -30,7 +30,7 @@
     "@antfu/eslint-config": "^0.33.1",
     "@nuxt/content": "^2.2.2",
     "@nuxt/image-edge": "1.0.0-27827328.bc9ddc0",
-    "@nuxt/test-utils-edge": "3.0.1-rc.0-27828744.aa9aec1",
+    "@nuxt/test-utils-edge": "3.0.1-rc.0-27833302.52421a9",
     "@nuxtjs/google-fonts": "^3.0.0-1",
     "@nuxtjs/i18n": "8.0.0-beta.6",
     "@nuxtjs/tailwindcss": "^6.1.3",
