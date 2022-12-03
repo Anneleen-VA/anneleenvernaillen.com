@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+  font-family: 'Poppins', Helvetica, Open sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+
+  color: rgba(34, 34, 34, 1);
+  background-color: #FFFEFD;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1, 
+h2,
+h3,
+.prose h1,
+.prose h2,
+.prose h3 {
+  font-weight: 500;
+}
+h1,
+.prose h1 {
+  font-size: 1.313em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+h2,
+.prose h2 {
+  font-size: 1.313em;
+  line-height: 0.8em;
+  text-transform: uppercase;
+  border-bottom: 1px dashed #222222;
+  margin-bottom: 35px;
+  margin-top: 10px;
+}
+h3,
+.prose h3 {
+  font-size: 1em;
+  font-weight: 600;
+}
+h4,
+.prose h4 {
+  color: #707070;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+img.floatRight {
+  float: right;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  max-width: 50%;
+}
+
+
+.navbarTogglerActive > span:nth-child(1) {
+  @apply transform rotate-45 top-[7px];
+}
+.navbarTogglerActive > span:nth-child(2) {
+  @apply opacity-0;
+}
+.navbarTogglerActive > span:nth-child(3) {
+  @apply transform top-[-8px] rotate-[135deg];
+}
+
+#nprogress {
+  pointer-events: none;  
+}
+
+#nprogress .bar {
+  background-color: #DCD8D1;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+}
