@@ -16,6 +16,15 @@ export default defineNuxtConfig({
     '@/assets/css/prose.css',
     'animate.css/animate.min.css',
   ],
+  head: {
+    htmlAttrs: {
+      lang: 'en',
+    },
+    title: 'Anneleen Vernaillen',
+    meta: [
+      { name: 'description', content: 'Anneleen Vernaillen. Visual Artist.' },
+    ],
+  },
   image: {
     provider: 'twicpics',
     twicpics: {

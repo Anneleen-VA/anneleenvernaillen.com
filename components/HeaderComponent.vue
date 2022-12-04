@@ -21,7 +21,11 @@ const navbarCollapseClass = computed(() => {
           <router-link to="/">
             <nuxt-img
               src="avembleem.png"
-              class="h-[96px] pr-0 sm:pr-[32px] lg:pr-[40px] max-w-none mx-auto md:mx-0"
+              class="object-contain h-[96px] w-[110px] pr-0 sm:mr-[32px] md:mr-[50px] max-w-none mx-auto"
+              width="110"
+              height="96"
+              alt="Logo Anneleen Vernaillen"
+              aria-label="Logo Anneleen Vernaillen"
             />
           </router-link>
         </div>
@@ -48,8 +52,9 @@ const navbarCollapseClass = computed(() => {
         <div class="flex px-4 justify-end items-center w-full">
           <button
             id="navbarToggler"
-            class="block absolute cursor-pointer translate-y-[-50%] xl:hidden left-0 top-0 sm:top-8 sm:left-auto sm:right-0 px-3 py-[6px] rounded-lg z-30"
-            :class="navbarTogglerClass" @click="navbarToggler"
+            class="block absolute cursor-pointer translate-y-[-50%] xl:hidden left-0 top-5 sm:top-14 sm:left-auto sm:right-0 px-3 py-[6px] rounded-lg z-30"
+            :class="navbarTogglerClass" aria-label="Menu"
+            @click="navbarToggler"
           >
             <span class="relative w-[30px] h-[2px] my-[6px] block bg-black transition" />
             <span class="relative w-[30px] h-[2px] my-[6px] block bg-black transition" />
