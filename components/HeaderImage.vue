@@ -7,7 +7,7 @@ const url = computed(() => {
 
 // settings
 const imageRatio: number = 420 / 1920
-const minimumHeight = 320
+const minimumHeight = 280
 
 // calculations
 const calculateImageHeight = (screenWidth: number) => {

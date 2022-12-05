@@ -14,14 +14,14 @@ const navbarCollapseClass = computed(() => {
 </script>
 
 <template>
-  <header class="w-full flex items-center p-10">
+  <header class="w-full flex items-center p-5">
     <div class="container-fluid w-full">
       <div class="sm:flex justify-between relative">
         <div class="max-w-full pt-20 sm:pt-0">
           <router-link to="/">
             <nuxt-img
               src="avembleem.png"
-              class="object-contain h-[96px] w-[110px] pr-0 sm:mr-[32px] md:mr-[50px] max-w-none mx-auto"
+              class="object-contain h-[80px] pr-0 sm:mr-[32px] md:mr-[50px] max-w-none mx-auto"
               width="110"
               height="96"
               alt="Logo Anneleen Vernaillen"

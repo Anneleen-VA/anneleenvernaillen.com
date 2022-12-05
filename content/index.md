@@ -6,9 +6,16 @@ image:
 # Home
 
 Let's try to change the homepage from the GitHub markdown editor.  
-And now add a line from local enviornment
+
+## Example markdown tags
 
 here comes some **bold text**
 
-En Hupla
-> Quote
+**schuine tekst**
+
+een [link](https://anneleenvernaillen.com)
+
+En een...
+> quote
+
+hallo
