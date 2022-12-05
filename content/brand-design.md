@@ -3,7 +3,9 @@ image:
   src: 'header-imgs/graphics-header.png'
 ---
 
-# Graphic Design
+# Brand Design
+
+# Your story visualized
 
 :::div{.col-left}
 
