@@ -10,8 +10,8 @@ export const menuItems: MenuItem[] = [
     url: '/ceramics',
   },
   {
-    title: 'Graphic Design',
-    url: '/graphic-design',
+    title: 'Brand Design',
+    url: '/brand-design',
   },
   {
     title: 'Art Initiation',
