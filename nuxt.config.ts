@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxtjs/tailwindcss',
     'nuxt-icon',
+    '@nuxthq/studio',
   ],
   css: [
     '@/assets/css/main.css',
