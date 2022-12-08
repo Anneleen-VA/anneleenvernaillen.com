@@ -8,17 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "deploy": "nuxt build && netlify deploy --dir dist",
-    "serve": "pnpm run generate && serve dist",
-    "test": "vitest",
-    "coverage": "vitest run --coverage",
-    "cypress:install": "cypress install",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
-    "cypress:dev": "start-server-and-test dev http://localhost:3000 'cypress open --config baseUrl=http://localhost:3000'",
-    "cypress:local": "start-server-and-test serve http://localhost:3000 cypress:run --config baseUrl=http://localhost:3000",
-    "lint": "eslint",
-    "lint:fix": "eslint . --fix",
-    "fulltest": "rm -rf node_modules && pnpm i && pnpm run lint && pnpm run coverage && pnpm run cypress:local"
+    "serve": "pnpm run generate && serve dist"
   },
   "dependencies": {
     "@nuxt/kit": "^3.0.0"
