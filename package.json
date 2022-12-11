@@ -3,18 +3,18 @@
   "version": "0.2.0",
   "private": false,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "deploy": "nuxt build && netlify deploy --dir dist",
+    "dev": "nuxi prepare & nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "deploy": "nuxi build && netlify deploy --dir dist",
     "serve": "pnpm run generate && serve dist"
   },
   "dependencies": {
     "@nuxt/kit": "^3.0.0"
   },
   "devDependencies": {
-    "av-theme": "^0.0.5",
+    "av-theme": "^0.0.7",
     "nuxt": "^3.0.0",
     "typescript": "^4.9.4"
   }
