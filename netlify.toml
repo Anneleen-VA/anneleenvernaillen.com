@@ -5,3 +5,9 @@
 [build]
   publish = "dist"
   command = "pnpm run build"
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+  [[plugins.inputs.audits]]
+    url = "https://anneleen.netlify.app"
