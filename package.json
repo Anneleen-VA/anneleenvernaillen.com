@@ -4,6 +4,7 @@
   "private": false,
   "scripts": {
     "dev": "nuxi prepare & nuxi dev",
+    "build": "nuxi build",
     "update": "pnpm update -L"
   },
   "dependencies": {
