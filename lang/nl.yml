@@ -3,3 +3,9 @@ read-more: Lees meer
 header:
   title: ANNELEEN VERNAILLEN
   subtitle: VISUAL ARTIST
+news:
+  titleOnHomepage: Nieuws / Archief
+  by: door
+  readmore: Lees meer
+footer:
+  copyright: © Anneleen Vernaillen

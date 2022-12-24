@@ -20,7 +20,10 @@ export default defineAppConfig({
       url: 'https://fosstodon.org/@vernaillen',
       icon: 'mdi:mastodon'
     }*/
-  ]
+  ],
+  tagembed: {
+    id: '80495'
+  }
 })
 
 // icon codes kunnen bij Iconify opgezocht worden:
