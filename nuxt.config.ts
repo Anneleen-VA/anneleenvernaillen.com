@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   extends: [
     'av-theme',
   ],
+  app: {
+    layoutTransition: { name: 'layout', mode: 'out-in' }
+  },
   image: {
     provider: 'twicpics',
     twicpics: {
