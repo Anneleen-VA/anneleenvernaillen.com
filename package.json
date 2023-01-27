@@ -6,7 +6,7 @@
     "dev": "nuxi prepare & nuxi dev --open",
     "build": "nuxi build",
     "update": "pnpm update -L",
-    "release": "release-it minor"
+    "release": "release-it"
   },
   "dependencies": {
     "@nuxt/kit": "^3.1.1"
@@ -20,6 +20,9 @@
   },
   "release-it": {
     "git": {
+      "commit": true,
+      "tag": true,
+      "push": true,
       "commitMessage": "chore: release v${version}"
     },
     "github": {
