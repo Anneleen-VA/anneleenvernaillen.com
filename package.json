@@ -1,6 +1,6 @@
 {
   "name": "anneleenvernaillen.com",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "private": false,
   "scripts": {
     "dev": "nuxi prepare & nuxi dev --open",
