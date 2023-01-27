@@ -6,7 +6,7 @@
     "dev": "nuxi prepare & nuxi dev --open",
     "build": "nuxi build",
     "update": "pnpm update -L",
-    "release": "release-it"
+    "release": "release-it patch"
   },
   "dependencies": {
     "@nuxt/kit": "^3.1.1"
