@@ -5,14 +5,14 @@
   "scripts": {
     "dev": "nuxi prepare & nuxi dev --open",
     "build": "nuxi build",
-    "update": "pnpm update -L",
+    "update": "git pull && pnpm update -L",
     "release": "release-it patch --ci"
   },
   "dependencies": {
     "@nuxt/kit": "^3.1.1"
   },
   "devDependencies": {
-    "av-theme": "^0.3.3",
+    "av-theme": "^0.3.4",
     "dayjs": "^1.11.7",
     "nuxt": "^3.1.1",
     "release-it": "^15.6.0",

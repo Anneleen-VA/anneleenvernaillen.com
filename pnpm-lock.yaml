@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@nuxt/kit': ^3.1.1
-  av-theme: ^0.3.3
+  av-theme: ^0.3.4
   dayjs: ^1.11.7
   nuxt: ^3.1.1
   release-it: ^15.6.0
@@ -12,7 +12,7 @@ dependencies:
   '@nuxt/kit': 3.1.1
 
 devDependencies:
-  av-theme: 0.3.3_obamoqtsdpurtl67beldqh3mei
+  av-theme: 0.3.4_obamoqtsdpurtl67beldqh3mei
   dayjs: 1.11.7
   nuxt: 3.1.1_typescript@4.9.4
   release-it: 15.6.0
@@ -2442,8 +2442,8 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /av-theme/0.3.3_obamoqtsdpurtl67beldqh3mei:
-    resolution: {integrity: sha512-kltpqdNMWCXPt6LLiWb92Vr2/VdLvyWs9Pp+1GnlfihSw2KRS1IHtdMah8vEBwznrxl5FQXziTjT8M892pj2Jw==}
+  /av-theme/0.3.4_obamoqtsdpurtl67beldqh3mei:
+    resolution: {integrity: sha512-YVE7cycucCEXkIrVOfkido/tAdGIBXId3lMkFs1JUx5Lcwe90gbvnVlQ7EyA9ku03OmewjR/dMsvGZi7enCjQA==}
     dependencies:
       '@nuxt/content': 2.4.2
       '@nuxt/image-edge': 1.0.0-27913696.5d122a3
