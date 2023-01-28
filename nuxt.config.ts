@@ -1,7 +1,7 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   extends: [
-    '../av-theme',
+    'av-theme',
   ],
   image: {
     provider: 'twicpics',
