@@ -13,7 +13,7 @@ const { data } = await useAsyncData('data', () =>
     <div v-for="item, index in data" :key="index" class="text-center">
       <NuxtLink :to="item._path" class="w-full m-auto">
         <NuxtImg
-          :src="`images/highlights/${item.highlightImg}`"
+          :src="useImagePath(item.highlightImg, 'highlights')"
           :alt="item.title"
           width="220"
           format="webp"

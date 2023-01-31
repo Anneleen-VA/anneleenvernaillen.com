@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const { page } = useContent()
 const url = computed(() => {
-  if (page.value && page.value.image)
-    return `images/headers/${page.value.image.src}`
+  if (page.value && page.value.image && page.value.image.src)
+    return useImagePath(page.value.image.src, 'headers')
   else return 'images/headers/header.png'
 })
 </script>
