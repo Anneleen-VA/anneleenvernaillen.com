@@ -1,6 +1,6 @@
 ---
 title: Home
-navigation: false
+navigation: true
 order: 0
 image.src: home-header@2x.png
 highlight: false
