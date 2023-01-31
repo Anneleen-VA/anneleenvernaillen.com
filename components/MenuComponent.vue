@@ -1,8 +1,11 @@
 <script setup lang="ts">
 defineEmits(['hideNav'])
-const { data: navigation } = await useAsyncData('navigation', () => {
-  return fetchContentNavigation()
-})
+const { data: navigation } = await useAsyncData('navigation', () =>
+  queryContent('/')
+    .where({ navigation: true })
+    .sort({ order: 1 })
+    .find(),
+)
 </script>
 
 <template>

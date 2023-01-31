@@ -1,5 +1,6 @@
 ---
 title: Art Initiation
+navigation: true
 order: 4
 image.src: art-initiation-header@2x.png
 highlight: true

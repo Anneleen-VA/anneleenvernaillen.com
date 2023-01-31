@@ -1,5 +1,6 @@
 ---
 title: Me
+navigation: true
 order: 6
 image.src: 'about-header@2x.png'
 highlight: false

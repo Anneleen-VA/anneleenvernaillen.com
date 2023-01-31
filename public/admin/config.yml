@@ -26,14 +26,16 @@ collections:
     preview_path: /{{slug}}
     sortable_fields: ['order', 'title', 'highlight']
     view_groups:
+      - label: All
       - label: Highlighted
         field: highlight
       - label: Order
         field: order
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Show in menu', name: 'navigation', widget: 'boolean', default: true }
       - { label: 'Order', name: 'order', widget: 'number' }
-      - { label: 'Header Image', name: 'image.src', widget: 'image', media_folder: '/public/images/headers', choose_url: false }
+      - { label: 'Header Image', name: 'image.src', widget: 'image', required: false, media_folder: '/public/images/headers', choose_url: false }
       - { label: 'Highlight on homepage', name: 'highlight', widget: 'boolean' }
       - { label: 'Highlight image', name: 'highlightImg', widget: 'image', required: false, media_folder: '/public/images/highlights', choose_url: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
@@ -51,7 +53,7 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Title Line 2', name: 'titleLine2', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Header Images', name: 'image.src', widget: 'image', media_folder: '/public/images/headers', choose_url: false }
+      - { label: 'Header Images', name: 'image.src', widget: 'image', required: false, media_folder: '/public/images/headers', choose_url: false }
       - { label: 'Thumbnail', name: 'thumbnail', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 

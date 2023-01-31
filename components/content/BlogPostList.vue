@@ -18,7 +18,7 @@ const { path } = useRoute()
 const { data } = await useAsyncData(`content-${path}`, () =>
   queryContent('news')
     .where({ isNews: true })
-    .sort({ _file: -1 })
+    .sort({ date: -1 })
     .limit(props.nrOfPosts)
     .find(),
 )

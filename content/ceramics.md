@@ -1,5 +1,6 @@
 ---
 title: Cermanics
+navigation: true
 order: 3
 image.src: ceramics-header@2x.png
 highlight: true

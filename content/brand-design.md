@@ -1,5 +1,6 @@
 ---
 title: Brand Design
+navigation: true
 order: 1
 image.src: graphics-header@2x.png
 highlight: true

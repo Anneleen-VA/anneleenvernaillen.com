@@ -1,5 +1,6 @@
 ---
 title: Wall Art
+navigation: true
 order: 2
 image.src: wall-art-header@2x.png
 highlight: true

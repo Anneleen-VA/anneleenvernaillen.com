@@ -3,6 +3,7 @@ const { data } = await useAsyncData('data', () =>
   queryContent('/')
     .where({ highlight: true })
     .only(['highlightImg', '_path', 'title'])
+    .sort({ order: 1 })
     .limit(4)
     .find(),
 )
