@@ -5,8 +5,7 @@ isNews: true
 date: 12/24/2022
 author: Anneleen Vernaillen
 thumbnail: screenshot-afstudeerproject.png
-image:
-  src: 'news-header@2x.png'
+image.src: 'news-header@2x.png'
 ---
 
 :::div{.col-left}

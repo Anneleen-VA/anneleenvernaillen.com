@@ -1,7 +1,7 @@
 ---
 title: Art Initiation
-image:
-  src: 'art-initiation-header@2x.png'
+order: 4
+image.src: art-initiation-header@2x.png
 highlight: true
 highlightImg: 4iconsv2-04.png
 ---

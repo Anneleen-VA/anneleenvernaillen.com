@@ -1,7 +1,7 @@
 ---
 title: Cermanics
-image:
-  src: 'ceramics-header@2x.png'
+order: 3
+image.src: ceramics-header@2x.png
 highlight: true
 highlightImg: 4iconsv2-02.png
 ---

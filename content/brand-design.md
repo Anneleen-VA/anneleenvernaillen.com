@@ -1,7 +1,7 @@
 ---
 title: Brand Design
-image:
-  src: graphics-header@2x.png
+order: 1
+image.src: graphics-header@2x.png
 highlight: true
 highlightImg: 4iconsv2-03.png
 ---

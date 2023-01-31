@@ -1,7 +1,8 @@
 ---
 title: Me
-image:
-  src: 'about-header@2x.png'
+order: 6
+image.src: 'about-header@2x.png'
+highlight: false
 ---
 
 # This is me

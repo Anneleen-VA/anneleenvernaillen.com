@@ -1,7 +1,7 @@
 ---
 title: Wall Art
-image:
-  src: 'wall-art-header@2x.png'
+order: 2
+image.src: wall-art-header@2x.png
 highlight: true
 highlightImg: 4iconsv2-01.png
 ---
