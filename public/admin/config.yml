@@ -26,11 +26,10 @@ collections:
     preview_path: /{{slug}}
     sortable_fields: ['order', 'title', 'highlight']
     view_groups:
-      - label: All
-      - label: Highlighted
+      - label: Menu
+        field: menu
+      - label: Highlight
         field: highlight
-      - label: Order
-        field: order
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Show in menu', name: 'navigation', widget: 'boolean', default: true }
