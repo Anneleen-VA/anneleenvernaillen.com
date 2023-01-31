@@ -24,7 +24,12 @@ collections:
     editor:
       preview: true
     preview_path: /{{slug}}
-    sortable_fields: ['order', 'title']
+    sortable_fields: ['order', 'title', 'highlight']
+    view_groups:
+      - label: Highlighted
+        field: highlight
+      - label: Order
+        field: order
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Order', name: 'order', widget: 'number' }
