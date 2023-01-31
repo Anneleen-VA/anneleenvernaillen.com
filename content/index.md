@@ -1,7 +1,7 @@
 ---
 title: Home
 image:
-  src: 'header-imgs/home-header@2x.png'
+  src: 'home-header@2x.png'
 navigation: false
 ---
 # Core
