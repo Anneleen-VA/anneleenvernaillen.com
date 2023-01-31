@@ -24,11 +24,11 @@ collections:
     editor:
       preview: true
     preview_path: /{{slug}}
-    sortable_fields: ['date', 'title']
+    sortable_fields: ['order', 'title']
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Header Image', name: 'image.src', widget: 'image' }
+      - { label: 'Order', name: 'order', widget: 'number' }
+      - { label: 'Header Image', name: 'image.src', widget: 'image', media_folder: 'header-imgs' }
       - { label: 'Highlight on homepage', name: 'highlight', widget: 'boolean' }
       - { label: 'Highlight image', name: 'highlightImg', widget: 'image', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
@@ -46,7 +46,7 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Title Line 2', name: 'titleLine2', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Header Images', name: 'image.src', widget: 'image' }
+      - { label: 'Header Images', name: 'image.src', widget: 'image', media_folder: 'header-imgs' }
       - { label: 'Thumbnail', name: 'thumbnail', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
