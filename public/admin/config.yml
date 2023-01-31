@@ -30,7 +30,7 @@ collections:
       - { label: 'Order', name: 'order', widget: 'number' }
       - { label: 'Header Image', name: 'image.src', widget: 'image', media_folder: '/public/images/headers' }
       - { label: 'Highlight on homepage', name: 'highlight', widget: 'boolean' }
-      - { label: 'Highlight image', name: 'highlightImg', widget: 'image', required: false, media_folder: 'public/images/highlights' }
+      - { label: 'Highlight image', name: 'highlightImg', widget: 'image', required: false, media_folder: '/public/images/highlights' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'news'
     label: 'News'
