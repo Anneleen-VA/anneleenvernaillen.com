@@ -8,46 +8,41 @@ image.src: news-header@2x.png
 thumbnail: /public/images/news/gold-bronze/1669749830240.jpeg
 ---
 
-:::div{.col-left}
+Dit is de "excerpt" tekst en komt in het nieuwsoverzicht, of voor het meest recente bericht op de homepage.
+Wordt ook getoond als eerste tekst op de detailpagina van een nieuwsbericht.
 
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-:::
-:::div{.col-right}
-
-![BEA World Best Event Awards](/images/news/beaworldawards/1669749830240.jpeg)
-
-:::
-:::div{.col-clear}
-:::
-
 <!--more-->
 
-:::div{.col-left}
+<div class="col-left">
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+<div class="col-right">
+<p>
+
+![](/images/1669749830240.jpeg "Beaworld")</p>
+
+![How to organise a festival](/images/news/gold-bronze/howtoorganiseafestival.png)
+
+<div class="col-left">
+<p>
+
+![Anneleen Vernaillen](/images/news/gold-bronze/1669749832700.jpeg)
+</p>
+</div>
+<div class="col-right">
+<p>
+
+![Pascal receiving the award](/images/news/gold-bronze/1669749831454.jpeg)
+</p>
+</div>
+<div class="col-clear"></div>
+<div class="col-clear"></div>
 
 
-:::
-:::div{.col-right}
-
-![How to organise a festival](/images/news/beaworldawards/howtoorganiseafestival.png)
-
-:::div{.col-left}
-
-![Anneleen Vernaillen](/images/news/beaworldawards/1669749832700.jpeg)
-
-:::
-:::div{.col-right}
-
-![Pascal receiving the award](/images/news/beaworldawards/1669749831454.jpeg)
-
-:::
-:::div{.col-clear}
-:::

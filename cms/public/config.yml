@@ -56,7 +56,6 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Title Line 2', name: 'titleLine2', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Summary', name: 'summary', widget: 'markdown' }
       - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', required: true, media_folder: '/app/public/images/news/{{slug}}', choose_url: false }
       - { label: 'Header Image', name: 'image.src', widget: 'image', required: false, media_folder: '/app/public/images/headers', choose_url: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
