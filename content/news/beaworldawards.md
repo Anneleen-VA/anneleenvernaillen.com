@@ -1,11 +1,20 @@
 ---
 title: GOLD & BRONZE!
 titleLine2: NOVEMBER 2022
-isNews: true
-date: 11/24/2022
+summary: >-
+  D﻿eze tekst komt in het nieuwsoverzicht, of voor het meest recente bericht ook
+  op de homepage voor.
+
+
+  T﻿e thumbnail hieronder is het beeld dat telkens rechts van de summary komt te staan in het overzicht.
+
+
+  B﻿eide worden niet getoond op de detail pagina van het nieuwsbericht
 author: Anneleen Vernaillen
+date: 11/24/2022
 thumbnail: /public/images/news/gold-bronze/1669749830240.jpeg
 image.src: news-header@2x.png
+isNews: true
 ---
 
 <div class="col-left">
