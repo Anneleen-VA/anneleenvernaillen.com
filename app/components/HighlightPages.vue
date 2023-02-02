@@ -10,22 +10,24 @@ const { data } = await useAsyncData('data', () =>
 </script>
 
 <template>
-  <div class="container max-w-screen-xl my-20">
+  <div class="container max-w-screen-xl my-6 sm:my-16">
     <div class="flex flex-wrap">
       <div class="w-full px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-2 md:grid-cols-4 justify-items-center">
-          <div v-for="item, index in data" :key="index" class="text-center">
+          <div v-for="item, index in data" :key="index" class="text-center py-4">
             <NuxtLink :to="item._path" class="w-full m-auto">
               <NuxtImg
                 :src="useImagePath(item.highlightImg, 'highlights')"
                 :alt="item.title"
                 width="220"
                 format="webp"
-                class="m-auto block"
+                class="m-auto block w-[100px]"
               />
             </NuxtLink>
             <NuxtLink :to="item._path" class="w-full m-auto">
-              <h1>{{ item.title }}</h1>
+              <span class="text-lg font-medium uppercase">
+                {{ item.title }}
+              </span>
             </NuxtLink>
           </div>
         </div>

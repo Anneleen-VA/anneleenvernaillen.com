@@ -1,7 +1,7 @@
 <template>
   <div :class="isHydrated ? '' : 'opacity-60'">
     <HeaderImage />
-    <div class="container max-w-screen-xl my-20">
+    <div class="container max-w-screen-xl my-12 sm:my-16 xl:my-20">
       <div class="flex flex-wrap">
         <div class="w-full px-4 sm:px-6 lg:px-8 mb-10">
           <div class="prose m-auto">
