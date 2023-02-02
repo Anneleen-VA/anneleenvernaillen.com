@@ -1,5 +1,5 @@
 ---
-title: Cermanics
+title: Ceramics
 navigation: true
 order: 3
 image.src: ceramics-header@2x.png
