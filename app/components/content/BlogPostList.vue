@@ -71,7 +71,7 @@ const animateDurationClass = (index: number) => {
         </NuxtLink>
       </div>
       <div class="col-right">
-        <NuxtImg :src="useImagePath(post.thumbnail, '')" />
+        <NuxtImg :src="useImagePath(post.thumbnail)" />
       </div>
       <div class="col-clear" />
     </div>

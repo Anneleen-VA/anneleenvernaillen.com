@@ -8,23 +8,25 @@ thumbnail: /public/images/news/exhibition-afstudeerprojecten-sabk/afstudeerproje
 image.src: news-header@2x.png
 ---
 
+In the very last year, 2nd year specialization, I chose to work with new material (porcelain) and with a new finishing technique to merge my passion for ceramics with my passion for graphic art. 
+<!--more-->
 <div class="col-left">
-<p>In the very last year, 2nd year specialization, I chose to work with new material (porcelain) and with a new finishing technique to merge my passion for ceramics with my passion for graphic art. 
 
 A challenging choice, but also the right one. 
 
 The finale of this fascinating year was on public display at the SABK, Stedelijke Academie voor Beeldende Kunsten in Zottegem, together with the work of 8 other ceramists. 
-Excited to call myself a specialist in ceramics now ;)</p>
+Excited to call myself a specialist in ceramics now ;)
 </div>
 <div class="col-right">
-<p>
 <div class="col-left">
-<p>![](/images/afstudeerproject-links.png)</p>
+
+![](/images/afstudeerproject-links.png)
 </div>
 <div class="col-right">
-<p>![](/images/afstudeerproject-rechts.png)</p>
+
+![](/images/afstudeerproject-rechts.png)
 </div>
-<div class="col-clear"></div></p>
+<div class="col-clear"></div>
 </div>
 <div class="col-clear"></div>
 
