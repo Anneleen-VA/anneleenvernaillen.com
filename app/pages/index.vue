@@ -5,13 +5,7 @@ const { t } = useI18n()
 <template>
   <div :class="isHydrated ? '' : 'opacity-60'">
     <HeaderImage />
-    <div class="container max-w-screen-xl my-10">
-      <div class="flex flex-wrap">
-        <div class="w-full px-4 sm:px-6 lg:px-8">
-          <HighlightPages />
-        </div>
-      </div>
-    </div>
+    <HighlightPages />
     <div class="bg-primary bg-opacity-[35%] w-full">
       <div class="container max-w-screen-xl my-20">
         <div class="flex flex-wrap">

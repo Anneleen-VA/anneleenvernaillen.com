@@ -39,6 +39,7 @@ Wordt ook getoond als eerste tekst op de detailpagina van een nieuwsbericht.
 ![Pascal receiving the award](/images/news/gold-bronze/1669749831454.jpeg)
 </div>
 <div class="col-clear"></div>
+</div>
 <div class="col-clear"></div>
 
 
