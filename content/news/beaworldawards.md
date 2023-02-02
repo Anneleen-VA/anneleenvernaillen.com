@@ -8,14 +8,13 @@ thumbnail: /public/images/news/gold-bronze/1669749830240.jpeg
 image.src: news-header@2x.png
 ---
 
-          <div class="col-left">
-            l﻿inks
-          </div>
-          <div class="col-right">
-            r﻿echts
-          </div>
-          <div class="col-clear"></div>
-          
+<div class="col-left">
+  <p>l﻿inks</p>
+</div>
+<div class="col-right">
+  <p>r﻿echts</p>
+</div>
+<div class="col-clear"></div>
 
 :::div{.col-left}
 
