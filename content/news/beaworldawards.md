@@ -4,8 +4,8 @@ titleLine2: NOVEMBER 2022
 isNews: true
 date: 11/24/2022
 author: Anneleen Vernaillen
-thumbnail: news/beaworldawards/1669749830240.jpeg
-image.src: 'news-header@2x.png'
+image.src: news-header@2x.png
+thumbnail: /public/images/news/gold-bronze/1669749830240.jpeg
 ---
 
 :::div{.col-left}
