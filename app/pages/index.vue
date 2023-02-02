@@ -3,7 +3,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div :class="isHydrated ? '' : 'opacity-60'">
+  <div :class="isHydrated ? '' : 'opacity-20 blur-md'">
     <HeaderImage />
     <HighlightPages />
     <div class="bg-primary bg-opacity-[35%] w-full">

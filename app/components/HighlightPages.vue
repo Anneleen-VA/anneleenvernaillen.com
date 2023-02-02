@@ -21,7 +21,7 @@ const { data } = await useAsyncData('data', () =>
                 :alt="item.title"
                 width="220"
                 format="webp"
-                class="m-auto block w-[100px]"
+                class="m-auto block w-[100px] sm:w-[140px] md:w-[170px] lg:w-[200px]"
               />
             </NuxtLink>
             <NuxtLink :to="item._path" class="w-full m-auto">

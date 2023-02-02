@@ -1,5 +1,5 @@
 <template>
-  <div :class="isHydrated ? '' : 'opacity-60'">
+  <div :class="isHydrated ? '' : 'opacity-20 blur-md'">
     <HeaderImage />
     <div class="container max-w-screen-xl my-12 sm:my-16 xl:my-20">
       <div class="flex flex-wrap">
