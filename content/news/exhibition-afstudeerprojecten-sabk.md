@@ -1,11 +1,11 @@
 ---
-title: 'EXHIBITION: AFSTUDEERPROJECTEN SABK'
+title: "EXHIBITION: AFSTUDEERPROJECTEN SABK"
 titleLine2: JUNE 2022
 isNews: true
 date: 10/24/2022
 author: Anneleen Vernaillen
-thumbnail: screenshot-afstudeerproject.png
-image.src: 'news-header@2x.png'
+image.src: news-header@2x.png
+thumbnail: /public/images/news/exhibition-afstudeerprojecten-sabk/afstudeerproject.png
 ---
 
 :::div{.col-left}
