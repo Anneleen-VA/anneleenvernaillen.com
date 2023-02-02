@@ -8,5 +8,5 @@ highlight: false
 
 # News / Archive
 
-::BlogPostList{excerpt}
+::BlogPostList
 ::
