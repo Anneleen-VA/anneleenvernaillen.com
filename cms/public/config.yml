@@ -9,7 +9,7 @@ backend:
 publish_mode: editorial_workflow
 
 # Media and Public Folders https://www.netlifycms.org/docs/configuration-options/#media-and-public-folders
-media_folder: public/images
+media_folder: /app/public/images
 public_folder: /images
 
 site_url: https://anneleen.netlify.app
@@ -19,7 +19,7 @@ show_preview_links: true
 collections:
   - name: 'page'
     label: 'Page'
-    folder: 'content/'
+    folder: '/app/content/'
     format: 'frontmatter'
     create: true
     slug: '{{slug}}'
@@ -38,13 +38,13 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Show in menu', name: 'navigation', widget: 'boolean', default: true }
       - { label: 'Order', name: 'order', widget: 'number' }
-      - { label: 'Header Image', name: 'image.src', widget: 'image', required: false, media_folder: '/public/images/headers', choose_url: false }
+      - { label: 'Header Image', name: 'image.src', widget: 'image', required: false, media_folder: '/app/public/images/headers', choose_url: false }
       - { label: 'Highlight on homepage', name: 'highlight', widget: 'boolean' }
-      - { label: 'Highlight image', name: 'highlightImg', widget: 'image', required: false, media_folder: '/public/images/highlights', choose_url: false }
+      - { label: 'Highlight image', name: 'highlightImg', widget: 'image', required: false, media_folder: '/app/public/images/highlights', choose_url: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'news'
     label: 'News'
-    folder: 'content/news'
+    folder: '/app/content/news'
     format: 'frontmatter'
     create: true
     slug: '{{slug}}'
@@ -57,7 +57,7 @@ collections:
       - { label: 'Title Line 2', name: 'titleLine2', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Summary', name: 'summary', widget: 'markdown' }
-      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', required: true, media_folder: '/public/images/news/{{slug}}', choose_url: false }
-      - { label: 'Header Image', name: 'image.src', widget: 'image', required: false, media_folder: '/public/images/headers', choose_url: false }
+      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', required: true, media_folder: '/app/public/images/news/{{slug}}', choose_url: false }
+      - { label: 'Header Image', name: 'image.src', widget: 'image', required: false, media_folder: '/app/public/images/headers', choose_url: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
