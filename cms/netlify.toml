@@ -5,4 +5,4 @@
 [build]
   base = "cms/"
   publish = "build"
-  command = "pnpm run build"
+  command = "pnpm -w run cms:build"

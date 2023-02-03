@@ -3,7 +3,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div :class="isHydrated ? '' : 'opacity-20 blur-md'">
+  <div :class="isHydrated ? '' : 'opacity-20 blur-sm'">
     <HeaderImage />
     <HighlightPages />
     <div class="bg-primary bg-opacity-[35%] w-full">
@@ -11,8 +11,8 @@ const { t } = useI18n()
         <div class="flex flex-wrap">
           <div class="w-full px-4 sm:px-6 lg:px-8 mt-20 mb-16">
             <div class="prose m-auto">
-              <article ref="content">
-                <ContentDoc class="animate__animated animate__fadeIn animate__fasters" />
+              <article ref="content" class="animate__animated animate__fadeIn">
+                <ContentDoc />
               </article>
             </div>
           </div>

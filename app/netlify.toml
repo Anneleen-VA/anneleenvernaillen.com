@@ -5,7 +5,7 @@
 [build]
   base = "app/"
   publish = "dist"
-  command = "pnpm run build"
+  command = "pnpm -w run app:build"
 
 [[plugins]]
   package = "@netlify/plugin-lighthouse"

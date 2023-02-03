@@ -65,7 +65,7 @@ const animateDurationClass = (index: number) => {
         </div>
         <ContentRenderer :value="post" excerpt />
         <NuxtLink :to="post._path" :aria-label="post.title">
-          <button class="text-black font-medium bg-white mt-5 mb-5 py-1 px-3 hover:bg-opacity-80 hover:shadow-signUp">
+          <button class="text-black font-medium bg-white p-1 hover:bg-opacity-80 hover:shadow-signUp">
             {{ t ('news.readmore') }}
           </button>
         </NuxtLink>

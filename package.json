@@ -1,0 +1,24 @@
+{
+  "name": "av-workspace",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Wouter Vernaillen",
+  "scripts": {
+    "build": "pnpm recursive run build",
+    "dev": "pnpm recursive run dev",
+    "lint": "pnpm recursive run lint",
+    "test": "pnpm recursive run test",
+    "clean": "pnpm recursive exec -- rm -rf node_modules; rm -rf node_modules",
+    "app:dev": "pnpm --filter ./app/ run dev",
+    "app:build": "pnpm --filter ./app/ run build",
+    "cms:dev": "pnpm --filter ./cms/ run start",
+    "cms:build": "pnpm --filter ./cms/ run build",
+    "fulltest": "pnpm run clean && pnpm config set auto-install-peers true && pnpm install --shamefully-hoist=true && pnpm run lint && pnpm run test && pnpm run build && pnpm run app:dev"
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=6"
+  }
+}
