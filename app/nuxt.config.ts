@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     pageTransition: { name: 'page', mode: 'out-in' },
   },
   modules: [
+    '@kevinmarrec/nuxt-pwa',
     '@nuxt/content',
     '@nuxt/image-edge',
     '@nuxtjs/google-fonts',
