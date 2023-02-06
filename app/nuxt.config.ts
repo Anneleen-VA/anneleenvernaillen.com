@@ -1,9 +1,4 @@
-import { createResolver, logger } from '@nuxt/kit'
-import { version } from './package.json'
-
-logger.success(`anneleenvernaillen.com v${version}`)
-logger.success('created by Wouter Vernaillen')
-
+import { createResolver } from '@nuxt/kit'
 const { resolve } = createResolver(import.meta.url)
 
 export default defineNuxtConfig({
@@ -11,7 +6,6 @@ export default defineNuxtConfig({
     pageTransition: { name: 'page', mode: 'out-in' },
   },
   modules: [
-    '@kevinmarrec/nuxt-pwa',
     '@nuxt/content',
     '@nuxt/image-edge',
     '@nuxtjs/google-fonts',

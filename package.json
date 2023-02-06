@@ -1,13 +1,16 @@
 {
-  "name": "av-workspace",
-  "version": "0.1.0",
+  "name": "anneleenvernaillen.com",
+  "version": "0.5.0",
   "description": "",
   "keywords": [],
   "license": "ISC",
   "author": "Wouter Vernaillen",
   "scripts": {
-    "build": "pnpm recursive run build",
-    "dev": "pnpm recursive run dev",
+    "dev": "nuxi prepare & nuxi dev --open",
+    "build": "nuxi build",
+    "serve": "nuxi build && node .output/server/index.mjs",
+    "update": "git pull && pnpm update -L",
+    "release": "release-it patch --ci",
     "lint": "pnpm recursive run lint",
     "test": "pnpm recursive run test",
     "clean": "pnpm recursive exec -- rm -rf node_modules; rm -rf node_modules",
@@ -15,10 +18,17 @@
     "app:build": "pnpm --filter ./app/ run build",
     "cms:dev": "pnpm --filter ./cms/ run start",
     "cms:build": "pnpm --filter ./cms/ run build",
-    "fulltest": "pnpm run clean && pnpm config set auto-install-peers true && pnpm install --shamefully-hoist=true && pnpm run lint && pnpm run test && pnpm run build && pnpm run app:dev"
+    "fulltest": "pnpm run clean && pnpm config set auto-install-peers true && pnpm install --shamefully-hoist=true && pnpm run lint && pnpm run test && pnpm run build && pnpm run dev"
   },
   "engines": {
-    "node": ">=16",
-    "pnpm": ">=6"
+    "node": ">=18",
+    "pnpm": ">=7"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^3.1.1",
+    "app": "workspace:^0.4.1"
+  },
+  "devDependencies": {
+    "nuxt": "^3.1.1"
   }
 }
