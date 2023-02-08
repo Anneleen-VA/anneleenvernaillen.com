@@ -7,10 +7,12 @@
           <div class="prose m-auto">
             <article ref="content" class="animate__animated animate__fadeIn">
               <ContentDoc v-slot="{ doc }" :excerpt="false">
-                <h1 v-if="doc.isNews">
+                <h3 v-if="doc.isNews" class="!my-0">
                   {{ doc.title }}
-                  <span v-if="doc.titleLine2">{{ doc.titleLine2 }}</span>
-                </h1>
+                </h3>
+                <h3 v-if="doc.titleLine2" class="!my-0">
+                  {{ doc.titleLine2 }}
+                </h3>
                 <ContentRenderer :value="doc" :excerpt="false" />
               </ContentDoc>
             </article>

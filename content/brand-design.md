@@ -7,23 +7,64 @@ highlight: true
 highlightImg: 4iconsv2-03.png
 ---
 
-# Brand Design
+# Brand Design<br>Your story visualized
 
-# Your story visualized
+I am a creative Art Director specialized in logo design and brand creation.
 
 :::div{.col-left}
 
-Master of fine arts and years of experience in the field. With a healthy dose of self-knowledge, I choose an open and honest approach. No bells and whistles, but direct and to the point.
+**Logo & Design**
+
+Every brand (company, event, product line, …) has something to tell. My goal as graphic designer is to listen and observe, to gather insight and **turn your vision, your story into a visual identity**. 
+
+With your audience in mind, I start creating your brand’s personality based on **its strengths and values. I’ll guide you through the process in understanding the relationship between business and design**. 
+
+Satisfied with the logo, the corporate identity? 
+Then I edit your visuals to build an identity that works across multiple formats and platforms (web, print, presentations, video, …)
 
 :::
 :::div{.col-right}
 
-A special project in mind, in need of a logo or do you have questions? Do not hesitate to contact me. I’ll be happy to discuss the possibilities with you. Quote - references’ from others
+**Brand Creation**
+
+During my creative process, juggling typography, colour, … I automatically have “**a tone of voice**” in mind for titles, additional imagery, … 
+
+Reinforcing the graphic identity through **photography and copywriting** enhances the personality of your brand. Aligning all these elements on e.g. your website, your social media channels, … creates consistent marketing. 
+
+I like to **advice and guide** you in the right direction **for your marketing & communication approach and elaboration**, because paying attention to uniformity pays off. **Making your brand more powerful**.
 
 :::
 :::div{.col-clear}
 :::
 
-## A small selection of my work
+:::div{.col-left}
+
+**My approach**
+
+Combining my experience in different fields - fine arts, graphic design, marketing & event management - I translate your message clearly and distinctly. I take an open and honest approach. No bells and whistles, but direct and to the point.
+
+:::
+:::div{.col-right}
+
+**My skills**
+
+* Adobe Photoshop 
+* Adobe Indesign 
+* Adobe Illustrator 
+* Adobe XD 
+* Adobe After Effects 
+* Adobe Express 
+* Powerpoint
+
+:::
+:::div{.col-clear}
+:::
+
+# A selection of my work
 
 ::ImageGallery{folder="brand-design/gallery"}
+::
+
+
+
+### References / quotes

@@ -17,7 +17,7 @@
 }
 .prose strong {
   color: var(--fg-deep);
-  font-weight: 600;
+  font-weight: 500;
 }
 .prose ol[type="A"] {
   --list-counter-style: upper-alpha;
