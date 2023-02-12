@@ -7,7 +7,7 @@ highlight: true
 highlightImg: 4iconsv2-03.png
 ---
 
-# Brand Design<br>Your story visualized
+# Brand Design<br>Your story visualised
 
 I am a creative Art Director specialized in logo design and brand creation.
 

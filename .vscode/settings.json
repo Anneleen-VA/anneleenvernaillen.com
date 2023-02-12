@@ -7,4 +7,5 @@
     "source.fixAll": true,
     "source.fixAll.eslint": true
   },
+  "npm-scripts.showStartNotification": false,
 }
