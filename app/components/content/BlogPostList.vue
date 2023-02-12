@@ -47,9 +47,9 @@ const animateDurationClass = (index: number) => {
             </div>
           </NuxtLink>
         </h3>
-        <div class="flex">
+        <div class="flex mt-5">
           <div
-            class="flex pr-5 mr-5 xl:pr-3 2xl:pr-5 xl:mr-3 2xl:mr-5 border-r border-body-color border-opacity-10 dark:border-white dark:border-opacity-10"
+            class="flex pr-5"
           >
             <div class="w-full">
               <div class="text-xs text-body-color">
@@ -57,7 +57,7 @@ const animateDurationClass = (index: number) => {
               </div>
             </div>
           </div>
-          <div class="inline-block">
+          <div v-if="post.author" class="inline-block pl-5 border-l border-body-color border-opacity-10 dark:border-white dark:border-opacity-10">
             <div class="text-xs text-body-color">
               {{ t ('news.by') }} {{ post.author }}
             </div>
@@ -65,7 +65,7 @@ const animateDurationClass = (index: number) => {
         </div>
         <ContentRenderer :value="post" excerpt />
         <NuxtLink :to="post._path" :aria-label="post.title">
-          <button class="text-black font-medium bg-white p-1 hover:bg-opacity-80 hover:shadow-signUp">
+          <button class="text-white font-medium bg-black px-5 py-1 ">
             {{ t ('news.readmore') }}
           </button>
         </NuxtLink>

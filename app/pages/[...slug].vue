@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const { t } = useI18n()
+</script>
+
 <template>
   <div :class="isHydrated ? '' : 'opacity-20 blur-sm'">
     <HeaderImage />
@@ -10,9 +14,25 @@
                 <h3 v-if="doc.isNews" class="!my-0">
                   {{ doc.title }}
                 </h3>
-                <h3 v-if="doc.titleLine2" class="!my-0">
+                <h3 v-if="doc.titleLine2" class="!mt-0 mb-5">
                   {{ doc.titleLine2 }}
                 </h3>
+                <div v-if="doc.isNews" class="flex mb-5">
+                  <div
+                    class="flex pr-5"
+                  >
+                    <div class="w-full">
+                      <div class="text-xs text-body-color">
+                        {{ doc.date }}
+                      </div>
+                    </div>
+                  </div>
+                  <div v-if="doc.author" class="inline-block pl-5 border-l border-body-color border-opacity-10 dark:border-white dark:border-opacity-10">
+                    <div class="text-xs text-body-color">
+                      {{ t ('news.by') }} {{ doc.author }}
+                    </div>
+                  </div>
+                </div>
                 <ContentRenderer :value="doc" :excerpt="false" />
               </ContentDoc>
             </article>

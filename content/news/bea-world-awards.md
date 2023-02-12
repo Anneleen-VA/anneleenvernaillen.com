@@ -5,7 +5,7 @@ isNews: true
 date: 11/24/2022
 author: Anneleen Vernaillen
 image.src: news-header@2x.png
-thumbnail: /public/images/news/gold-bronze/1669749830240.jpeg
+thumbnail: /public/images/news/bea-world-awards/1669749830240.jpeg
 ---
 With the team at Fast Forward Events, we won gold & bronze at the BEA World Awards, the oscars of the event industry. 
 
@@ -48,21 +48,19 @@ Thanks Fast Forward Events, in particular Pascal Cauwelier and Mathias Kerckhof,
 
 ![](/images/1669749830240.jpeg "Beaworld")</p>
 
-![](/images/news/gold-bronze/howtoorganiseafestival.png "How to organise a festival")
+![](/images/news/bea-world-awards/howtoorganiseafestival.png "How to organise a festival")
 
 :::div{.col-left}
 
-![Anneleen Vernaillen](/images/news/gold-bronze/1669749832700.jpeg)
+![Anneleen Vernaillen](/images/news/bea-world-awards/1669749832700.jpeg)
 :::
 :::div{.col-right}
 
-![Pascal receiving the award](/images/news/gold-bronze/1669749831454.jpeg)
+![Pascal receiving the award](/images/news/bea-world-awards/1669749831454.jpeg)
 :::
 :::div{.col-clear}
 :::
 
-
-:::
 :::div{.col-clear}
 :::
 

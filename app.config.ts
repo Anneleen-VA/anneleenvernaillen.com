@@ -10,16 +10,11 @@ export default defineAppConfig({
       url: 'https://www.linkedin.com/in/anneleen-vernaillen',
       icon: 'mdi:linkedin',
     },
-    /* {
-      title: 'Twitter',
-      url: 'https://twitter.com/vernaillen',
-      icon: 'mdi:twitter'
-    },
     {
-      title: 'Mastodon',
-      url: 'https://fosstodon.org/@vernaillen',
-      icon: 'mdi:mastodon'
-    } */
+      title: 'WhatsApp',
+      url: 'https://wa.me/+32496568738',
+      icon: 'mdi:whatsapp',
+    },
   ],
   tagembed: {
     id: '80538',

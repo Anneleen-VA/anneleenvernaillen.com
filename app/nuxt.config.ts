@@ -28,7 +28,10 @@ export default defineNuxtConfig({
     download: true,
     display: 'swap',
     families: {
-      Poppins: [300, 400, 500, 700],
+      Poppins: {
+        wght: [200, 300, 400, 500, 700],
+        ital: [200, 300, 400, 500, 700],
+      },
     },
   },
   content: {
