@@ -7,7 +7,7 @@
   "author": "Wouter Vernaillen",
   "scripts": {
     "dev": "nuxi prepare & nuxi dev --open",
-    "update": "git pull && pnpm update -L"
+    "pull": "git pull"
   },
   "engines": {
     "node": ">=18",

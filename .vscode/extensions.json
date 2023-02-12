@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "vue.volar",
-    "antfu.iconify"
+    "antfu.iconify",
+    "yzhang.markdown-all-in-one"
   ]
 }
