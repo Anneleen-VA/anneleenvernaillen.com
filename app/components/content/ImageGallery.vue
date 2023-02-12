@@ -30,12 +30,14 @@ const openGallery = (i: number) => {
 </script>
 
 <template>
-  <div class="columns-1 md:columns-2 lg:columns-3 mx-[-8px] mb-20">
-    <div v-for="(image, index) in images" :key="index" class="px-2">
-      <div class="galleryImgWrapper rounded-md overflow-hidden relative mb-8 shadow-md shadow-gray-800">
-        <nuxt-picture loading="lazy" :src="image" class="cursor-pointer rounded-md max-w-full p-0 m-0" :alt="image" @click="openGallery(index)" />
+  <div class="columns-2 md:columns-3 lg:columns-4 mx-[-8px] mb-20">
+    <TwicView>
+      <div v-for="(image, index) in images" :key="index" class="px-1">
+        <div class="galleryImgWrapper rounded-lg overflow-hidden relative mb-6 shadow-md shadow-gray-800">
+          <TwicImg ratio="1" mode="contain" :src="image" class=" rounded-lg cursor-pointer" :alt="image" @click="openGallery(index)" />
+        </div>
       </div>
-    </div>
+    </TwicView>
   </div>
 </template>
 
@@ -53,7 +55,7 @@ const openGallery = (i: number) => {
   transition: all 0.5s;
 }
 
-.galleryImgWrapper:hover img {
+.prose .galleryImgWrapper img:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);

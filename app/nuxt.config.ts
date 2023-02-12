@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
+    '@twicpics/components/nuxt3',
     '@vueuse/nuxt',
     'nuxt-icon',
   ],
@@ -68,5 +69,12 @@ export default defineNuxtConfig({
     twicpics: {
       baseURL: 'https://vernaillen.twic.pics/anneleen',
     },
+    modifiers: {
+      format: 'webp',
+    },
+  },
+  twicpics: {
+    domain: 'https://vernaillen.twic.pics',
+    path: 'anneleen',
   },
 })
