@@ -7,7 +7,7 @@ author: Anneleen Vernaillen
 image.src: news-header@2x.png
 thumbnail: /public/images/news/bea-world-awards/1669749830240.jpeg
 ---
-With the team at Fast Forward Events, we won gold & bronze at the BEA World Awards, the oscars of the event industry. 
+*With the team at Fast Forward Events, we won gold & bronze at the BEA World Awards, the oscars of the event industry.*
 
 The big, bright & bold Happy Rebels Festival for House of HR convinced the jury in terms of creativity, strategy, efficiency and quality (out of 350 cases, entered by 34 countries worldwide). 
 
