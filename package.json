@@ -25,10 +25,10 @@
     "pnpm": ">=7"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.1.2",
-    "app": "workspace:^0.5.0"
+    "@nuxt/kit": "^3.2.0",
+    "app": "workspace:^0.5.1"
   },
   "devDependencies": {
-    "nuxt": "^3.1.2"
+    "nuxt": "^3.2.0"
   }
 }

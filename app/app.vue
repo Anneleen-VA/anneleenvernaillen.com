@@ -13,9 +13,7 @@ useHead({
 <template>
   <NuxtLoadingIndicator color="repeating-linear-gradient(to right,#DCD8D1 0%,#707070 50%,#DCD8D1 100%)" />
   <HeaderComponent />
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <NuxtPage />
   <FooterComponent />
   <easy-lightbox />
 </template>
