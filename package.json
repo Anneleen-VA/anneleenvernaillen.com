@@ -1,24 +1,13 @@
 {
   "name": "anneleenvernaillen.com",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "",
   "keywords": [],
   "license": "ISC",
   "author": "Wouter Vernaillen",
   "scripts": {
     "dev": "nuxi prepare & nuxi dev --open",
-    "build": "nuxi build",
-    "serve": "nuxi build && node .output/server/index.mjs",
-    "update": "git pull && pnpm update -L",
-    "release": "release-it patch --ci",
-    "lint": "pnpm recursive run lint",
-    "test": "pnpm recursive run test",
-    "clean": "pnpm recursive exec -- rm -rf node_modules; rm -rf node_modules",
-    "app:dev": "pnpm --filter ./app/ run dev",
-    "app:build": "pnpm --filter ./app/ run build",
-    "cms:dev": "pnpm --filter ./cms/ run start",
-    "cms:build": "pnpm --filter ./cms/ run build",
-    "fulltest": "pnpm run clean && pnpm config set auto-install-peers true && pnpm install --shamefully-hoist=true && pnpm run lint && pnpm run test && pnpm run build && pnpm run dev"
+    "update": "git pull && pnpm update -L"
   },
   "engines": {
     "node": ">=18",
