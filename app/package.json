@@ -21,7 +21,6 @@
     "@nuxt/image-edge": "1.0.0-27919678.2f5b64b",
     "@nuxt/kit": "^3.2.0",
     "@nuxt/ui-templates": "^1.1.1",
-    "@twicpics/components": "^0.15.1",
     "nuxt": "^3.2.0"
   },
   "devDependencies": {
