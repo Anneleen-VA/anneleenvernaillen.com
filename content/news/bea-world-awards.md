@@ -2,7 +2,7 @@
 title: GOLD & BRONZE!
 titleLine2: 
 isNews: true
-date: 11/24/2022
+date: 11/25/2022
 author: Anneleen Vernaillen
 image.src: news-header@2x.png
 thumbnail: /public/images/news/bea-world-awards/1669749830240.jpeg
