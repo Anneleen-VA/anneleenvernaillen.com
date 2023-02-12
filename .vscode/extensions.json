@@ -2,6 +2,7 @@
   "recommendations": [
     "vue.volar",
     "antfu.iconify",
-    "yzhang.markdown-all-in-one"
+    "yzhang.markdown-all-in-one",
+    "mhutchie.git-graph"
   ]
 }
