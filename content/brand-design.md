@@ -9,7 +9,7 @@ highlightImg: 4iconsv2-03.png
 
 # Brand Design<br>Your story visualised
 
-I am a creative Art Director specialized in logo design and brand creation.
+I am a creative Art Director specialised in logo design and brand creation.
 
 :::div{.col-left}
 

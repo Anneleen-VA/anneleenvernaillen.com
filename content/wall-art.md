@@ -7,7 +7,7 @@ highlight: true
 highlightImg: 4iconsv2-01.png
 ---
 
-# WWall art<br>Photographic Observations. Interpretations
+# Wall art<br>Photographic Observations. Interpretations
 
 :::div{.col-left}
 How much or how little must we see for our mind to register and complete an image correctly? What happens when we cross that line? **Where does reality end and (our) imagination takes over?**
@@ -33,4 +33,7 @@ As a result, I feel a very personal connection with each of these works. I hope 
 :::div{.col-clear}
 :::
 
-## Nature    Urban    All
+## Nature / Urban 
+
+::ImageGallery{folder="/images/wall-art/gallery"}
+::
