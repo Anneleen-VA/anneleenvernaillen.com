@@ -12,10 +12,10 @@ const props = defineProps({
 })
 const lightbox = useLightbox()
 const images: string[] = []
-Object.values(import.meta.glob('/public/images/**')).forEach((imageModule) => {
+Object.values(import.meta.glob('/public/**')).forEach((imageModule) => {
   if (
     imageModule.name
-    && imageModule.name.startsWith(`/public/images/${props.folder}`)
+    && imageModule.name.startsWith(`/public${props.folder}`)
     && (props.filter == null
       || props.filter === ''
       || imageModule.name.indexOf(props.filter) > 0)

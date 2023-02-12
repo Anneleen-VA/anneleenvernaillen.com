@@ -1,10 +1,8 @@
-welcome: Hello, World! 🌍
-read-more: Read more
 header:
   title: ANNELEEN VERNAILLEN
   subtitle: VISUAL ARTIST
 news:
-  titleOnHomepage: News / Archive
+  titleOnHomepage: Latest news
   by: by
   readmore: Read more
 footer:

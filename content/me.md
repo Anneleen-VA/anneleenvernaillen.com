@@ -28,7 +28,7 @@ Finding peace of mind, I do in nature. Starting the day walking or jogging throu
 
 ## Background
 
-![Anneleen Vernaillen](about-profilepic.jpg){class="floatRight" width="250"}
+![Anneleen Vernaillen](/about-profilepic.jpg){class="floatRight" width="250"}
 
 ### Fine arts
 

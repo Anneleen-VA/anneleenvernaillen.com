@@ -19,7 +19,7 @@ In an event world where visuals and communication are increasingly important, th
 
 <!--more-->
 
-<div class="col-left">
+:::div{.col-left}
 
 **How to organize a festival for 4.300 employees working in more than 10 countries? How to attract and warm up all those colleagues from all over Europe?**
 
@@ -40,23 +40,31 @@ everywhere in all graphic elements (baches, videos, flags, wristbands, …). And
 
 Thanks to the many suppliers for their hard work and fine collaboration. 
 Thanks Fast Forward Events, in particular Pascal Cauwelier and Mathias Kerckhof, for this opportunity and for the trust. 
-</div>
-<div class="col-right">
+:::
+:::div{.col-right}
+
+::IframeComponent{src="https://www.youtube.com/embed/lVPLIuBy9CY?feature=oembed" cssClass="w-full h-[300px]"}
+::
 
 ![](/images/1669749830240.jpeg "Beaworld")</p>
 
 ![](/images/news/gold-bronze/howtoorganiseafestival.png "How to organise a festival")
 
-<div class="col-left">
+:::div{.col-left}
 
 ![Anneleen Vernaillen](/images/news/gold-bronze/1669749832700.jpeg)
-</div>
-<div class="col-right">
+:::
+:::div{.col-right}
 
 ![Pascal receiving the award](/images/news/gold-bronze/1669749831454.jpeg)
-</div>
-<div class="col-clear"></div>
-</div>
-<div class="col-clear"></div>
+:::
+:::div{.col-clear}
+:::
+
+
+:::
+:::div{.col-clear}
+:::
+
 
 
