@@ -7,4 +7,23 @@ highlight: true
 highlightImg: 4iconsv2-04.png
 ---
 
-# Control versus spontaneity
+# Art Initiation<br>discover the power of creativity
+
+:::div{.col-left}
+
+Creating makes me evolve more consciously and brings me peace. **Through my creations, I find more balance**. Starting from that strong personal vision, I want to **encourage creative experiences** with the aim of making people aware of the power of creativity.
+
+I shared this vision on creativity before and found that it really energises people, and that even encourages me more.
+
+:::
+:::div{.col-right}
+
+I like to take this experience to a higher, more individual level via workshops. I don’t have a concrete approach or interpretation (yet). But I ‘d love to start a dialogue with you and who knows what creative elaboration we can come up with together….
+
+**Let's talk.**
+:::
+:::div{.col-clear}
+:::
+
+**Celebrating creative individuality & expression.**
+**That’s what I like to stand for. Anywhere. Anytime.**   

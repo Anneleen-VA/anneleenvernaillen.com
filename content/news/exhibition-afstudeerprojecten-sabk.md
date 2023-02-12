@@ -1,8 +1,8 @@
 ---
 title: "EXHIBITION: AFSTUDEERPROJECTEN SABK"
-titleLine2: JUNE 2022
+titleLine2:
 isNews: true
-date: 10/24/2022
+date: 6/22/2022
 
 thumbnail: /public/images/news/exhibition-afstudeerprojecten-sabk/afstudeerproject.png
 image.src: news-header@2x.png

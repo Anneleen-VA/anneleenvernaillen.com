@@ -12,12 +12,11 @@ highlightImg: 4iconsv2-02.png
 :::div{.col-left}
 
 The behavior of clay on a wheel - and porcelain in particular - **fascinates me** beyond words. This craftmanship requires concentration, practice and focus, but the tranquility it brings… so zen. A wonderful craft and material to explore… 
-**This pure and delicate material fits perfectly with my personal preference for sleek**
 
 :::
 :::div{.col-right}
 
- **design**. Here too, I look for that straightforward approach without bells and whistles, **the virtue of pure forms**. By combining my photographic interpretations with the purity of porcelain, I have found a voice of my own which perfectly reflects my personality.
+ **This pure and delicate material fits perfectly with my personal preference for sleek design**. Here too, I look for that straightforward approach without bells and whistles, **the virtue of pure forms**. By combining my photographic interpretations with the purity of porcelain, I have found a voice of my own which perfectly reflects my personality.
 
 :::
 :::div{.col-clear}

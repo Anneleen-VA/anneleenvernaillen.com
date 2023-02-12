@@ -1,6 +1,6 @@
 ---
 title: GOLD & BRONZE!
-titleLine2: NOVEMBER 2022
+titleLine2: 
 isNews: true
 date: 11/24/2022
 author: Anneleen Vernaillen
@@ -43,12 +43,10 @@ Thanks Fast Forward Events, in particular Pascal Cauwelier and Mathias Kerckhof,
 :::
 :::div{.col-right}
 
-::IframeComponent{src="https://www.youtube.com/embed/lVPLIuBy9CY?feature=oembed" cssClass="w-full h-[300px]"}
-::
-
 ![](/images/1669749830240.jpeg "Beaworld")</p>
 
-![](/images/news/bea-world-awards/howtoorganiseafestival.png "How to organise a festival")
+::IframeComponent{src="https://www.youtube.com/embed/vlUNk1xBC10" cssClass="w-full h-[300px]"}
+::
 
 :::div{.col-left}
 

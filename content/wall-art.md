@@ -7,7 +7,7 @@ highlight: true
 highlightImg: 4iconsv2-01.png
 ---
 
-# Photographic Observations. Interpretations
+# WWall art<br>Photographic Observations. Interpretations
 
 :::div{.col-left}
 How much or how little must we see for our mind to register and complete an image correctly? What happens when we cross that line? **Where does reality end and (our) imagination takes over?**
