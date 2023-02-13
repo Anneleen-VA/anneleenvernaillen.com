@@ -21,8 +21,11 @@ const handleHide = () => {
   </VueEasyLightbox>
 </template>
 
-<style scoped>
+<style>
 .vel-modal {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(255, 254, 253, 0.7);
+}
+.vel-modal .vel-btns-wrapper svg.vel-icon {
+  fill: black!important;
 }
 </style>

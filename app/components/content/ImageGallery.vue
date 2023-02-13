@@ -10,8 +10,10 @@ const props = defineProps({
     required: false,
   },
 })
+const $img = useImage()
 const lightbox = useLightbox()
 const images: string[] = []
+const imageThumbnails: string[] = []
 Object.values(import.meta.glob('/public/**')).forEach((imageModule) => {
   if (
     imageModule.name
@@ -19,8 +21,14 @@ Object.values(import.meta.glob('/public/**')).forEach((imageModule) => {
     && (props.filter == null
       || props.filter === ''
       || imageModule.name.indexOf(props.filter) > 0)
-  )
-    images.push(imageModule.name.substring('/public'.length))
+  ) {
+    const imgPath = imageModule.name.substring('/public'.length)
+    const imgTwicPicUrl = $img(imgPath, {
+      format: 'webp',
+    })
+    images.push(imgTwicPicUrl)
+    imageThumbnails.push(imgPath)
+  }
 })
 
 const openGallery = (i: number) => {
@@ -32,9 +40,9 @@ const openGallery = (i: number) => {
 <template>
   <div class="columns-2 md:columns-3 lg:columns-4 mx-[-8px] mb-20">
     <TwicView>
-      <div v-for="(image, index) in images" :key="index" class="px-1">
+      <div v-for="(image, index) in imageThumbnails" :key="index" class="px-1">
         <div class="galleryImgWrapper rounded-lg overflow-hidden relative mb-6 shadow-md shadow-gray-800">
-          <TwicImg ratio="1" mode="contain" :src="image" class=" rounded-lg cursor-pointer" :alt="image" @click="openGallery(index)" />
+          <NuxtImg :src="image" class="rounded-lg cursor-pointer w-full" :alt="image" @click="openGallery(index)" />
         </div>
       </div>
     </TwicView>
