@@ -60,7 +60,7 @@ Combining my experience in different fields - fine arts, graphic design, marketi
 :::div{.col-clear}
 :::
 
-# A selection of my work
+## A selection of my work
 
 ::ImageGallery{folder="/images/brand-design/gallery"}
 ::
