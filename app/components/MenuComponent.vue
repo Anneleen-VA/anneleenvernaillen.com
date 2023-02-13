@@ -4,7 +4,7 @@ const localePath = useLocalePath()
 const { data: navigation } = await useAsyncData('navigation', () =>
   queryContent('/')
     .where({ navigation: true })
-    .sort({ order: 1 })
+    .sort({ _file: 1 })
     .find(),
 )
 
