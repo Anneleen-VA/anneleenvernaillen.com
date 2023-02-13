@@ -13,7 +13,7 @@ const { path } = useRoute()
 const { data } = await useAsyncData(`content-${path}`, () =>
   queryContent('news')
     .where({ isNews: true })
-    .sort({ date: -1 })
+    .sort({ _path: 1 })
     .limit(props.nrOfPosts)
     .find(),
 )
@@ -65,7 +65,7 @@ const animateDurationClass = (index: number) => {
         </div>
         <ContentRenderer :value="post" excerpt />
         <NuxtLink :to="post._path" :aria-label="post.title">
-          <button class="text-white font-medium bg-black px-5 py-1 ">
+          <button class="text-white rounded-lg font-medium bg-black px-5 py-1 ">
             {{ t ('news.readmore') }}
           </button>
         </NuxtLink>
