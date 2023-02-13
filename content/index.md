@@ -8,10 +8,10 @@ highlight: false
 ## Core
 
 ### Celebrating creative individuality & expression. 
-**That’s what I like to stand for. Anywhere. Anytime.**
 
 :::div{.col-left}
 
+**That’s what I like to stand for. Anywhere. Anytime.**<br>
 Ever since my childhood, I’ve been drawing, painting,… creating. For me being creative is **the expression of a process**, is growing, moving forward. The love for this process, the love for **creative growth** brought me to where I am today. 
 
 :::
