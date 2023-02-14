@@ -23,7 +23,11 @@ const handleHide = () => {
 
 <style>
 .vel-modal {
-  background: rgba(255, 254, 253, 0.7);
+  background: rgba(255, 254, 253, 0.9)!important;
+}
+.vel-modal .vel-img {
+  max-height: 95vh;
+  max-width: 80vw;
 }
 .vel-modal .vel-btns-wrapper svg.vel-icon {
   fill: black!important;
