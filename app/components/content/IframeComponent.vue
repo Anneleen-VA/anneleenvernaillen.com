@@ -20,6 +20,7 @@ defineProps({
 <template>
   <iframe
     :src="src"
+    class="mb-3 rounded-md"
     :class="cssClass"
     :title="title"
     frameborder="0"
