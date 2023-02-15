@@ -1,5 +1,10 @@
 <script setup lang="ts">
+const { page } = useContent()
 const { t } = useI18n()
+const localePath = useLocalePath()
+
+if (!page.value)
+  setResponseStatus(404)
 </script>
 
 <template>
@@ -8,7 +13,7 @@ const { t } = useI18n()
     <div class="container max-w-screen-xl my-12 sm:my-16 xl:my-20">
       <div class="flex flex-wrap">
         <div class="w-full px-4 sm:px-6 lg:px-8 mb-10">
-          <div class="prose m-auto">
+          <div v-if="page" class="prose m-auto">
             <article ref="content" class="animate__animated animate__fadeIn">
               <ContentDoc v-slot="{ doc }" :excerpt="false">
                 <h3 v-if="doc.isNews" class="!my-0">
@@ -35,6 +40,11 @@ const { t } = useI18n()
                 </div>
                 <ContentRenderer :value="doc" :excerpt="false" />
               </ContentDoc>
+            </article>
+          </div>
+          <div v-else class="prose m-auto">
+            <article>
+              <ContentDoc :path="localePath('/_404')" />
             </article>
           </div>
         </div>
