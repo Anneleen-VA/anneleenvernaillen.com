@@ -19,7 +19,8 @@ export default defineAppConfig({
   tagembed: {
     id: '80538',
   },
+  dateFormat: 'MMMM YYYY'  // of 'D MMMM YYYY'
 })
 
-// icon codes kunnen bij Iconify opgezocht worden:
+// icon codes (zoals hierboven bij de socials) kunnen bij Iconify opgezocht worden:
 // https://iconify.design/

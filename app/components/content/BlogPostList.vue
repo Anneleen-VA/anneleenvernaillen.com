@@ -1,6 +1,4 @@
 <script setup lang="ts">
-// import * as dayjs from 'dayjs'
-
 const props = defineProps({
   nrOfPosts: {
     type: Number,
@@ -8,7 +6,7 @@ const props = defineProps({
     required: false,
   },
 })
-
+const { t } = useI18n()
 const { path } = useRoute()
 const { data } = await useAsyncData(`content-${path}`, () =>
   queryContent('news')
@@ -17,13 +15,6 @@ const { data } = await useAsyncData(`content-${path}`, () =>
     .limit(props.nrOfPosts)
     .find(),
 )
-
-const { t } = useI18n()
-
-/* function formatDate(d: string) {
-  const date = dayjs(d)
-  return date.format('D MMM YYYY')
-} */
 const animateDurationClass = (index: number) => {
   return `animate-duration-${index * 1000}, animate-delay-${index * 100}`
 }
@@ -36,24 +27,22 @@ const animateDurationClass = (index: number) => {
   >
     <div class="relative bg-transparent mb-10 prose">
       <div class="col-left">
-        <h3>
+        <h3 class="!mb-1">
           <NuxtLink
             :aria-label="post.title" :to="post._path"
-            class="font-bold text-primary dark:text-white text-xl sm:text-2xl block mb-4 hover:bg-opacity-80"
+            class="!font-light text-primary dark:text-white text-xl sm:text-2xl block hover:bg-opacity-80"
           >
             {{ post.title }}
-            <div v-if="post.titleLine2">
+            <div v-if="post.titleLine2" class="!mt-1">
               {{ post.titleLine2 }}
             </div>
           </NuxtLink>
         </h3>
-        <div class="flex mt-5">
-          <div
-            class="flex pr-5"
-          >
+        <div class="flex mb-7">
+          <div class="flex pr-5">
             <div class="w-full">
-              <div class="text-xs text-body-color">
-                {{ post.date }}
+              <div class="text-body-color uppercase">
+                {{ useFormattedDate(post.date) }}
               </div>
             </div>
           </div>

@@ -33,7 +33,7 @@ const navbarCollapseClass = computed(() => {
         <div class="max-w-full">
           <router-link to="/">
             <div class="pt-[22px] sm:pt-[28px] whitespace-nowrap">
-              <h1 class="mb-0 text-2xl sm:mx-0 mx-auto table block  whitespace-nowrap">
+              <h1 class="mb-0 text-2xl sm:mx-0 mx-auto table block whitespace-nowrap">
                 {{ t('header.title') }}
               </h1>
               <h4 class="leading-4 sm:mx-0 mx-auto table block whitespace-nowrap">

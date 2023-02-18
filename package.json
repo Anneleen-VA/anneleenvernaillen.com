@@ -6,7 +6,7 @@
   "license": "ISC",
   "author": "Wouter Vernaillen",
   "scripts": {
-    "dev": "nuxi prepare & nuxi dev --open",
+    "dev": "nuxi prepare & nuxi dev --open --host 0.0.0.0",
     "pull": "git pull & pnpm install"
   },
   "engines": {
@@ -14,10 +14,10 @@
     "pnpm": ">=7"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.2.0",
+    "@nuxt/kit": "^3.2.2",
     "app": "workspace:^0.5.1"
   },
   "devDependencies": {
-    "nuxt": "^3.2.0"
+    "nuxt": "^3.2.2"
   }
 }

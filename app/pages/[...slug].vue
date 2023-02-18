@@ -16,19 +16,17 @@ if (!page.value)
           <div v-if="page" class="prose m-auto">
             <article ref="content" class="animate__animated animate__fadeIn">
               <ContentDoc v-slot="{ doc }" :excerpt="false">
-                <h3 v-if="doc.isNews" class="!my-0">
+                <h3 v-if="doc.isNews" class="!mb-1">
                   {{ doc.title }}
+                  <div v-if="doc.titleLine2" class="!mt-1">
+                    {{ doc.titleLine2 }}
+                  </div>
                 </h3>
-                <h3 v-if="doc.titleLine2" class="!mt-0 mb-5">
-                  {{ doc.titleLine2 }}
-                </h3>
-                <div v-if="doc.isNews" class="flex mb-5">
-                  <div
-                    class="flex pr-5"
-                  >
+                <div v-if="doc.isNews" class="flex mb-7">
+                  <div class="flex pr-5">
                     <div class="w-full">
-                      <div class="text-xs text-body-color">
-                        {{ doc.date }}
+                      <div class="text-body-color uppercase">
+                        {{ useFormattedDate(doc.date) }}
                       </div>
                     </div>
                   </div>

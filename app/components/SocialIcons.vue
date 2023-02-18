@@ -10,6 +10,11 @@ const props = defineProps({
     default: 1.5,
     required: false,
   },
+  colors: {
+    type: String,
+    default: 'text-gray hover:text-black',
+    required: false,
+  },
 })
 const appConfig = useAppConfig()
 const socials = appConfig.socials.filter((social) => {
@@ -18,15 +23,21 @@ const socials = appConfig.socials.filter((social) => {
 
   return false
 })
+const iconColors = () => {
+  return `${props.colors} mx-1`
+}
 </script>
 
 <template>
   <a
     v-for="social, index in socials"
     :key="index"
-    :href="social.url" target="_blank" :title="social.title"
-    :alt="social.title" :aria-label="social.title"
-    class="text-gray hover:text-black mx-1"
+    :href="social.url"
+    target="_blank"
+    :title="social.title"
+    :alt="social.title"
+    :aria-label="social.title"
+    :class="iconColors()"
   >
     <Icon v-if="social.icon" :name="social.icon" :size="`${size}em`" />
   </a>

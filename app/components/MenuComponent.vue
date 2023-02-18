@@ -23,7 +23,7 @@ const linkClass = (path?: string) => {
 </script>
 
 <template>
-  <ul class="block xl:flex xl:border-l-dark-900 xl:border-l-2 pl-4">
+  <ul class="block xl:flex xl:border-l-dark-900 xl:border-l-2 pl-4 columns-3">
     <li v-for="item, index in navigation" :key="index" class="relative group align-bottom">
       <NuxtLink
         :to="item._path"
