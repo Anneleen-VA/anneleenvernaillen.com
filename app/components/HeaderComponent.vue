@@ -19,7 +19,7 @@ const navbarCollapseClass = computed(() => {
     <div class="container max-w-screen-xl w-full">
       <div class="sm:flex justify-between relative">
         <div class="max-w-full pt-14 sm:pt-0">
-          <router-link to="/">
+          <NuxtLink to="/">
             <NuxtImg
               src="avembleem.png"
               class="object-contain h-[55px] sm:h-[80px] pr-0 sm:mr-[32px] max-w-none mx-auto"
@@ -28,7 +28,7 @@ const navbarCollapseClass = computed(() => {
               alt="Logo Anneleen Vernaillen"
               aria-label="Logo Anneleen Vernaillen"
             />
-          </router-link>
+          </NuxtLink>
         </div>
         <div class="max-w-full">
           <router-link to="/">
