@@ -34,7 +34,7 @@ defineProps({
 
 <template>
   <NuxtImg
-    class="rounded-md"
+    class="rounded-lg"
     :src="src" :alt="alt" :width="width" :height="height" :fit="fit" :class="cssClass"
   />
 </template>
