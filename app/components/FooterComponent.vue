@@ -26,13 +26,13 @@ const linkClass = (path?: string) => {
 
 <template>
   <div class="bg-black w-full">
-    <div class="container max-w-screen-xl my-0 py-16">
+    <div class="container max-w-screen-xl my-0 py-10">
       <div class="sm:flex sm:flex-wrap">
         <div class="w-full px-10 sm:w-1/4 lg:w-1/5">
           <NuxtLink to="/">
             <NuxtImg
-              src="/images/avembleemgrey2.png"
-              class="object-contain h-[80px] pr-0 sm:ml-0 sm:mr-[40px] max-w-none mx-auto"
+              src="/images/avembleemgrey.png"
+              class="object-contain h-[60px] pr-0 sm:ml-0 sm:mr-[40px] max-w-none mx-auto"
               width="110"
               height="96"
               alt="Logo Anneleen Vernaillen"
@@ -40,7 +40,7 @@ const linkClass = (path?: string) => {
             />
           </NuxtLink>
         </div>
-        <div class="w-full sm:w-2/4 lg:w-3/5 my-16 sm:my-0">
+        <div class="w-full sm:w-2/4 lg:w-3/5 my-10 sm:my-0">
           <ul class="flex-wrap flex-col xl:border-l-dark-900 xl:border-l-2 sm:columns-2 lg:columns-3 text-center sm:text-left">
             <li v-for="item, index in navigation" :key="index" class="relative group align-bottom text-center sm:text-left">
               <NuxtLink
