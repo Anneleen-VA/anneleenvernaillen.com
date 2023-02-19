@@ -31,7 +31,7 @@ const linkClass = (path?: string) => {
         <div class="w-1/4 md:w-1/5">
           <NuxtLink to="/">
             <NuxtImg
-              src="avembleemgrey.png"
+              src="/images/avembleemgrey2.png"
               class="object-contain h-[80px] pr-0 sm:mr-[32px] max-w-none"
               width="110"
               height="96"

@@ -21,7 +21,7 @@ const navbarCollapseClass = computed(() => {
         <div class="max-w-full pt-14 sm:pt-0">
           <NuxtLink to="/">
             <NuxtImg
-              src="avembleem.png"
+              src="/images/avembleem2.png"
               class="object-contain h-[55px] sm:h-[80px] pr-0 sm:mr-[32px] max-w-none mx-auto"
               width="110"
               height="96"
