@@ -12,9 +12,9 @@ if (!page.value)
     <HeaderImage />
     <div class="container max-w-screen-xl my-12 sm:my-16 xl:my-20">
       <div class="flex flex-wrap">
-        <div class="w-full px-4 sm:px-6 lg:px-8 mb-10">
+        <div class="w-full px-4 sm:px-6 lg:px-8">
           <div v-if="page" class="prose m-auto">
-            <article ref="content" class="animate__animated animate__fadeIn">
+            <article ref="content" class="block animate__animated animate__fadeIn">
               <ContentDoc v-slot="{ doc }" :excerpt="false">
                 <h3 v-if="doc.isNews" class="!mb-1">
                   {{ doc.title }}
@@ -45,6 +45,7 @@ if (!page.value)
               <ContentDoc :path="localePath('/_404')" />
             </article>
           </div>
+          <NextPreviousPost v-if="page && page.isNews" />
         </div>
       </div>
     </div>

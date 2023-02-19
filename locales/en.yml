@@ -4,6 +4,9 @@ header:
 news:
   titleOnHomepage: Latest news
   by: by
-  readmore: Read more
+  readmore: read more
+  previous: previous
+  next: next
+  overview: back to news overview
 footer:
   copyright: © Anneleen Vernaillen

@@ -4,6 +4,9 @@ header:
 news:
   titleOnHomepage: Nieuws / Archief
   by: door
-  readmore: Lees meer
+  readmore: lees meer
+  previous: vorige
+  next: volgende
+  overview: terug naar nieuwsoverzicht
 footer:
   copyright: © Anneleen Vernaillen
