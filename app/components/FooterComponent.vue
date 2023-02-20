@@ -26,9 +26,9 @@ const linkClass = (path?: string) => {
 
 <template>
   <div class="bg-black w-full">
-    <div class="container max-w-screen-xl my-0 py-10">
+    <div class="container max-w-screen-xl my-0 py-10 sm:py-16">
       <div class="sm:flex sm:flex-wrap">
-        <div class="w-full px-10 sm:w-1/4 lg:w-1/5">
+        <div class="sm:order-1 w-full px-10 mb-12 sm:mb-0 sm:w-1/4 lg:w-1/5">
           <NuxtLink to="/">
             <NuxtImg
               src="/images/avembleemgrey.png"
@@ -40,7 +40,10 @@ const linkClass = (path?: string) => {
             />
           </NuxtLink>
         </div>
-        <div class="w-full sm:w-2/4 lg:w-3/5 my-10 sm:my-0">
+        <div class="sm:order-3 w-full sm:w-1/4 lg:w-1/5 px-10 mt-[50px] sm:my-0 sm:justify-end text-center sm:text-end">
+          <SocialIcons colors="text-primary hover:text-white" />
+        </div>
+        <div class="sm:order-2 w-full sm:w-2/4 lg:w-3/5 mt-10 mb-6 sm:my-0">
           <ul class="flex-wrap flex-col xl:border-l-dark-900 xl:border-l-2 sm:columns-2 lg:columns-3 text-center sm:text-left">
             <li v-for="item, index in navigation" :key="index" class="relative group align-bottom text-center sm:text-left">
               <NuxtLink
@@ -52,9 +55,6 @@ const linkClass = (path?: string) => {
               </NuxtLink>
             </li>
           </ul>
-        </div>
-        <div class="w-full sm:w-1/4 lg:w-1/5 px-10 mt-5 mb-0 sm:my-0 sm:justify-end text-center sm:text-end">
-          <SocialIcons colors="text-primary hover:text-white" />
         </div>
       </div>
     </div>

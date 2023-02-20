@@ -23,11 +23,14 @@ const linkClass = (path?: string) => {
 </script>
 
 <template>
-  <ul class="block w-screen sm:w-fit pt-16 sm:pt-1 pl-12 sm:pl-4 xl:flex xl:border-l-dark-900 xl:border-l-2">
+  <ul>
     <li v-for="item, index in navigation" :key="index" class="relative group align-bottom">
       <NuxtLink
         :to="item._path"
-        class="text-gray uppercase overflow-hidden leading-4 align-bottom flex py-5 sm:py-2 pl-2 pr-10 xl:inline-flex xl:pl-1 xl:pr-0 xl:py-2 xl:ml-2 xl:mr-3"
+        class="text-gray uppercase overflow-hidden leading-4 align-bottom flex py-5 pl-2 pr-10
+        text-lg xl:text-base
+        sm:py-6
+        xl:inline-flex xl:pl-1 xl:pr-0 xl:py-2 xl:ml-2 xl:mr-3"
         :class="linkClass(item._path)"
         @click="$emit('hideNav')"
       >

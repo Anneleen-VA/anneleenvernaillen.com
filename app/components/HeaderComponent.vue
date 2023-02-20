@@ -56,20 +56,39 @@ const navbarCollapseClass = computed(() => {
 
           <nav
             id="navbarCollapse" ref="navbarCollapse"
-            class="fixed sm:absolute left-0 right-0 top-0 bottom-0 sm:bottom-auto w-full sm:w-fit sm:max-w-[250px] sm:top-24 sm:left-auto sm:right-10 z-20 justify-start sm:justify-end py-5 pr-2 bg-[#DCD8D1] sm:bg-[#FFFEFD] shadow-lg xl:bg-transparent xl:py-0 xl:max-w-full xl:block xl:static xl:shadow-none"
+            class="fixed w-screen h-screen left-0 right-0 top-0 bottom-0 z-20 justify-start
+          bg-[#FFFEFD]
+            shadow-lg
+            xl:hidden"
             :class="navbarCollapseClass"
           >
-            <menu-component @hide-nav="navbar.show = false" />
-            <NuxtLink to="/" class="text-left sm:hidden">
-              <NuxtImg
-                src="/images/avembleemblag.png"
-                class="object-contain h-[55px] my-5 mx-7"
-                width="110"
-                height="96"
-                alt="Logo Anneleen Vernaillen"
-                aria-label="Logo Anneleen Vernaillen"
-              />
-            </NuxtLink>
+            <div
+              class="bg-[#DCD8D1] bg-opacity-[35%]
+              fixed w-screen h-screen justify-center items-center
+              pt-24 pb-5 pr-2 sm:pt-36"
+            >
+              <div class="pl-14 sm:w-1/3 sm:pl-5 md:pl-20 mx-auto">
+                <menu-component
+                  @hide-nav="navbar.show = false"
+                />
+                <NuxtLink to="/" class="text-left block pt-5">
+                  <NuxtImg
+                    src="/images/avembleemblag.png"
+                    class="object-contain h-[55px] my-5 ml-[-18px]"
+                    width="110"
+                    height="96"
+                    alt="Logo Anneleen Vernaillen"
+                    aria-label="Logo Anneleen Vernaillen"
+                  />
+                </NuxtLink>
+              </div>
+            </div>
+          </nav>
+          <nav
+            id="navbarCollapse" ref="navbarCollapse"
+            class="hidden xl:block justify-end w-fit max-w-full pt-1 static bg-transparent py-0"
+          >
+            <menu-component class="pl-4 flex border-l-dark-900 border-l-2" />
           </nav>
           <div class="absolute flex top-7 sm:top-0 sm:relative justify-end sm:pr-20 xl:pr-0 xl:mr-[-10px]">
             <social-icons />
