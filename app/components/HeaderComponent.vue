@@ -71,7 +71,7 @@ const navbarCollapseClass = computed(() => {
                 <menu-component
                   @hide-nav="navbar.show = false"
                 />
-                <NuxtLink to="/" class="text-left block pt-5">
+                <NuxtLink to="/" class="text-left block pt-5" @click="navbar.show = false">
                   <NuxtImg
                     src="/images/avembleemblag.png"
                     class="object-contain h-[55px] my-5 ml-[-18px]"
