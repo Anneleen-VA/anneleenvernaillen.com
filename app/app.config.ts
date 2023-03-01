@@ -19,7 +19,8 @@ export default defineAppConfig({
   tagembed: {
     id: '80538',
   },
-  dateFormat: 'MMMM YYYY'  // of 'D MMMM YYYY'
+  dateFormat: 'MMMM YYYY',
+  mailchimpLink: 'https://mailchi.mp/360379361b88/subscriptionpage',
 })
 
 // icon codes (zoals hierboven bij de socials) kunnen bij Iconify opgezocht worden:

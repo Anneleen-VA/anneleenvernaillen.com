@@ -3,6 +3,11 @@ const { page } = useContent()
 const { t } = useI18n()
 const localePath = useLocalePath()
 
+// const route = useRoute()
+const { trigger } = usePolitePopup()
+// if (route.path !== '/contact' && route.path !== '/contact')
+trigger()
+
 if (!page.value)
   setResponseStatus(404)
 </script>

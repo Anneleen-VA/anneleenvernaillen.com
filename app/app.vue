@@ -16,6 +16,7 @@ useHead({
   <NuxtPage />
   <FooterComponent />
   <easy-lightbox />
+  <PolitePopup />
 </template>
 
 <style>

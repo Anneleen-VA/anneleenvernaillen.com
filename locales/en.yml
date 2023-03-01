@@ -10,3 +10,8 @@ news:
   overview: back to news overview
 footer:
   copyright: © Anneleen Vernaillen
+politePopup:
+  thanks: Hi! Thank you for visiting my website.
+  question: Want to keep up to date with new stuff?
+  yes: Yes please
+  no: No thanks
