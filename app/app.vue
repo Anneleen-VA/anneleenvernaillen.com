@@ -14,6 +14,10 @@ useHead({
       content: t('website.description'),
     },
     {
+      property: 'og:title',
+      content: (title?: string) => `${title} - Anneleen Vernaillen | Visual Artist`,
+    },
+    {
       property: 'og:description',
       content: t('website.description'),
     },
