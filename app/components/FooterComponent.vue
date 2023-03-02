@@ -22,6 +22,23 @@ const linkClass = (path?: string) => {
     classToAdd = 'text-white'
   return classToAdd
 }
+
+const scrollToTop = () => {
+  scrollToElement('__nuxt')
+}
+
+onMounted(() => {
+  window.onscroll = function () {
+    const backToTop = document.querySelector('.back-to-top') as HTMLElement
+    if (
+      document.body.scrollTop > 50
+        || document.documentElement.scrollTop > 50
+    )
+      backToTop.style.display = 'flex'
+    else
+      backToTop.style.display = 'none'
+  }
+})
 </script>
 
 <template>
@@ -68,4 +85,16 @@ const linkClass = (path?: string) => {
       </div>
     </div>
   </div>
+  <button
+    class="back-to-top hidden items-center justify-center
+    bg-gray text-white w-10 h-10
+    rounded-md fixed bottom-8 right-8 left-auto z-[999]
+    cursor-pointer
+    hover:shadow-signUp hover:bg-opacity-80
+    shadow-lg
+    animate__animated animate__slideInUp"
+    @click="scrollToTop()"
+  >
+    <span class="w-3 h-3 border-t border-l border-white transform rotate-45 mt-[6px]" />
+  </button>
 </template>

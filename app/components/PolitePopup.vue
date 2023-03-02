@@ -27,9 +27,10 @@ const onClickClose = () => {
       lg:left-1/2
       p-5
       rounded-lg
-      shadow-md shadow-gray
+      shadow-lg shadow-gray
       bg-opacity-[97%]
       bg-white
+      animate__animated animate__slideInUp
     "
   >
     <span class="prose">
