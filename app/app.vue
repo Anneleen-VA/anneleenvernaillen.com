@@ -1,11 +1,27 @@
 <script setup lang="ts">
+const { t } = useI18n()
 useHead({
   htmlAttrs: {
     lang: 'en',
   },
-  script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+  title: t('website.title'),
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+  ],
+  meta: [
+    { name: 'description', content: t('website.description') },
+    {
+      property: 'og:title',
+      content: t('website.title'),
+    },
+    {
+      property: 'og:description',
+      content: t('website.description'),
+    },
+    {
+      property: 'og:image',
+      content: '/anneleenvernaillen-og.png',
+    },
   ],
 })
 </script>
