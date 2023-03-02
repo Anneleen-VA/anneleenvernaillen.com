@@ -1,5 +1,4 @@
 <script setup lang="ts">
-const { t } = useI18n()
 useHead({
   htmlAttrs: {
     lang: 'en',
@@ -7,24 +6,6 @@ useHead({
   titleTemplate: (title?: string) => `${title} - Anneleen Vernaillen | Visual Artist`,
   link: [
     { rel: 'icon', type: 'image/x-icon', href: 'https://anneleenvernaillen.com/favicon.png' },
-  ],
-  meta: [
-    {
-      name: 'description',
-      content: t('website.description'),
-    },
-    {
-      property: 'og:title',
-      content: (title?: string) => `${title} - Anneleen Vernaillen | Visual Artist`,
-    },
-    {
-      property: 'og:description',
-      content: t('website.description'),
-    },
-    {
-      property: 'og:image',
-      content: 'https://anneleenvernaillen.com/anneleenvernaillen-og.png',
-    },
   ],
 })
 </script>

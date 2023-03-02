@@ -1,8 +1,9 @@
 <script setup lang="ts">
 const { t } = useI18n()
-
 const { trigger } = usePolitePopup()
 trigger()
+
+setMetaData('Home')
 </script>
 
 <template>

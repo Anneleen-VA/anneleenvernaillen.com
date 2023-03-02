@@ -6,8 +6,9 @@ const localePath = useLocalePath()
 const { trigger } = usePolitePopup()
 trigger()
 
-if (!page.value)
-  setResponseStatus(404)
+if (page.value)
+  setMetaData(page.value.title)
+else setResponseStatus(404)
 </script>
 
 <template>
