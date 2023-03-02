@@ -33,9 +33,6 @@ const animateDurationClass = (index: number) => {
             class="!font-light text-primary dark:text-white text-xl sm:text-2xl block hover:bg-opacity-80"
           >
             {{ post.title }}
-            <div v-if="post.titleLine2" class="!mt-1">
-              {{ post.titleLine2 }}
-            </div>
           </NuxtLink>
         </h3>
         <div class="flex mb-7">

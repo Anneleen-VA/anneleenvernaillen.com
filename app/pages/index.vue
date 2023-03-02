@@ -1,5 +1,8 @@
 <script setup lang="ts">
 const { t } = useI18n()
+
+const { trigger } = usePolitePopup()
+trigger()
 </script>
 
 <template>

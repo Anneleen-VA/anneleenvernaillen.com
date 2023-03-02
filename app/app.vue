@@ -4,15 +4,13 @@ useHead({
   htmlAttrs: {
     lang: 'en',
   },
-  title: t('website.title'),
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
   ],
   meta: [
-    { name: 'description', content: t('website.description') },
     {
-      property: 'og:title',
-      content: t('website.title'),
+      name: 'description',
+      content: t('website.description'),
     },
     {
       property: 'og:description',

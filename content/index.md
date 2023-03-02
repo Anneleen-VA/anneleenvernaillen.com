@@ -1,5 +1,6 @@
 ---
 title: Home
+head.title: Home - Anneleen Vernaillen
 navigation: false
 image.src: home-header@2x.png
 highlight: false

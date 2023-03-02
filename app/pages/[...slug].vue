@@ -3,9 +3,7 @@ const { page } = useContent()
 const { t } = useI18n()
 const localePath = useLocalePath()
 
-// const route = useRoute()
 const { trigger } = usePolitePopup()
-// if (route.path !== '/contact' && route.path !== '/contact')
 trigger()
 
 if (!page.value)
@@ -23,9 +21,6 @@ if (!page.value)
               <ContentDoc v-slot="{ doc }" :excerpt="false">
                 <h3 v-if="doc.isNews" class="!mb-1">
                   {{ doc.title }}
-                  <div v-if="doc.titleLine2" class="!mt-1">
-                    {{ doc.titleLine2 }}
-                  </div>
                 </h3>
                 <div v-if="doc.isNews" class="flex mb-7">
                   <div class="flex pr-5">
