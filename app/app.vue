@@ -4,9 +4,9 @@ useHead({
   htmlAttrs: {
     lang: 'en',
   },
-  titleTemplate: (title?: string) => `${title} @ Anneleen Vernaillen | Visual Artist`,
+  titleTemplate: (title?: string) => `${title} - Anneleen Vernaillen | Visual Artist`,
   link: [
-    { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+    { rel: 'icon', type: 'image/x-icon', href: 'https://anneleenvernaillen.com/favicon.png' },
   ],
   meta: [
     {
@@ -14,12 +14,12 @@ useHead({
       content: t('website.description'),
     },
     {
-      name: 'og:description',
+      property: 'og:description',
       content: t('website.description'),
     },
     {
-      name: 'og:image',
-      content: '/anneleenvernaillen-og.png',
+      property: 'og:image',
+      content: 'https://anneleenvernaillen.com/anneleenvernaillen-og.png',
     },
   ],
 })
