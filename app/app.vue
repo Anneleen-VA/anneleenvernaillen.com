@@ -4,6 +4,7 @@ useHead({
   htmlAttrs: {
     lang: 'en',
   },
+  titleTemplate: (title?: string) => `${title} @ Anneleen Vernaillen | Visual Artist`,
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
   ],
@@ -13,11 +14,11 @@ useHead({
       content: t('website.description'),
     },
     {
-      property: 'og:description',
+      name: 'og:description',
       content: t('website.description'),
     },
     {
-      property: 'og:image',
+      name: 'og:image',
       content: '/anneleenvernaillen-og.png',
     },
   ],
