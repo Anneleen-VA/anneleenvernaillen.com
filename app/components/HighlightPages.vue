@@ -7,13 +7,15 @@ const { data } = await useAsyncData('data', () =>
     .limit(4)
     .find(),
 )
+const appConfig = useAppConfig()
+const gridColsClass = appConfig.showNews ? 'grid-cols-2 md:grid-cols-4' : 'sm:grid-cols-3'
 </script>
 
 <template>
   <div class="container max-w-screen-xl my-6 sm:my-16">
     <div class="flex flex-wrap">
       <div class="w-full px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-2 md:grid-cols-4 justify-items-center animate__animated animate__fadeIn">
+        <div :class="gridColsClass" class="grid justify-items-center animate__animated animate__fadeIn">
           <div v-for="item, index in data" :key="index" class="text-center py-4">
             <NuxtLink :to="item._path" class="w-full m-auto">
               <NuxtImg

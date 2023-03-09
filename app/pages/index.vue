@@ -4,6 +4,8 @@ const { trigger } = usePolitePopup()
 trigger()
 
 setMetaData('Home')
+
+const appConfig = useAppConfig()
 </script>
 
 <template>
@@ -23,7 +25,7 @@ setMetaData('Home')
         </div>
       </div>
     </div>
-    <div class="container max-w-screen-xl my-20">
+    <div v-if="appConfig.showNews" class="container max-w-screen-xl my-20">
       <div class="flex flex-wrap">
         <div class="w-full px-4 sm:px-6 lg:px-8">
           <h2>{{ t('news.titleOnHomepage') }}</h2>

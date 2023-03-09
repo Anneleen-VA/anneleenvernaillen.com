@@ -1,4 +1,5 @@
 export default defineAppConfig({
+  showNews: false,
   socials: [
     {
       title: 'Instagram',
