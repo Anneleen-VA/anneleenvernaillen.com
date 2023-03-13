@@ -4,7 +4,7 @@ const tagembedId = appConfig.tagembed.id
 </script>
 
 <template>
-  <div v-if="tagembedId" class="w-full" :class="appConfig.showNews ? 'bg-primary bg-opacity-[35%]' : ''">
+  <div v-if="tagembedId" class="w-full bg-primary bg-opacity-[35%]">
     <div class="container max-w-screen-xl">
       <div class="flex flex-wrap">
         <div class="w-full px-4 sm:px-6 lg:px-8 mt-10 mb-2 animate__animated animate__fadeIn">

@@ -7,8 +7,7 @@ const { data } = await useAsyncData('data', () =>
     .limit(4)
     .find(),
 )
-const appConfig = useAppConfig()
-const gridColsClass = appConfig.showNews ? 'grid-cols-2 md:grid-cols-4' : 'sm:grid-cols-3'
+const gridColsClass = computed(() => data.value?.length === 4 ? 'grid-cols-2 md:grid-cols-4' : 'sm:grid-cols-3')
 </script>
 
 <template>
