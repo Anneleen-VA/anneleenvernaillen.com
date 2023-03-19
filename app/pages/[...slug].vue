@@ -18,7 +18,7 @@ else setResponseStatus(404)
       <div class="flex flex-wrap">
         <div class="w-full px-4 sm:px-6 lg:px-8">
           <div v-if="page" class="prose m-auto">
-            <article ref="content" class="block animate__animated animate__fadeIn">
+            <article class="block animate__animated animate__fadeIn">
               <ContentDoc v-slot="{ doc }" :excerpt="false">
                 <h3 v-if="doc.isNews" class="!mb-1">
                   {{ doc.title }}

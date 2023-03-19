@@ -55,12 +55,13 @@ const navbarCollapseClass = computed(() => {
           </button>
 
           <nav
-            id="navbarCollapse" ref="navbarCollapse"
+            id="navbarCollapse"
             class="fixed w-screen h-screen left-0 right-0 top-0 bottom-0 z-20 justify-start
           bg-[#FFFEFD]
             shadow-lg
             xl:hidden"
             :class="navbarCollapseClass"
+            aria-label="mobile-nav"
           >
             <div
               class="bg-[#DCD8D1] bg-opacity-[35%]
@@ -85,8 +86,9 @@ const navbarCollapseClass = computed(() => {
             </div>
           </nav>
           <nav
-            id="navbarCollapse" ref="navbarCollapse"
+            id="navbarCollapse"
             class="hidden xl:block justify-end w-fit max-w-full pt-1 static bg-transparent py-0"
+            aria-label="desktop-nav"
           >
             <menu-component class="pl-4 flex border-l-dark-900 border-l-2" />
           </nav>

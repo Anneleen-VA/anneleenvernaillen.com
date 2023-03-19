@@ -1,0 +1,51 @@
+version: 2.1
+
+orbs:
+  slack: circleci/slack@4.12.1
+  sonarcloud: sonarsource/sonarcloud@1.1.1
+
+executors:
+  pnpm-executor:
+    docker:
+      - image: vernaillen/circleci-pnpm:18.15.0-browsers
+
+jobs:
+  build:
+    executor: pnpm-executor
+    steps:
+      - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: Install packages
+          command: pnpm install
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: Build app
+          command: pnpm --filter ./app/ run build
+      - run:
+          name: Build main
+          command: pnpm --filter ./ run build
+      - run:
+          name: Lint
+          command: pnpm --filter ./app/ run lint
+      - run:
+          name: Test
+          command: pnpm --filter ./app/ run coverage
+      - sonarcloud/scan
+      - slack/notify:
+          channel: circleci
+          event: always
+
+workflows:
+  flow:
+    jobs:
+      - build:
+          context:
+            - Slack
+            - SonarCloud
+
+# VS Code Extension Version: 1.5.1
