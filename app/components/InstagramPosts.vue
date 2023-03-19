@@ -12,8 +12,9 @@ const tagembedId = appConfig.tagembed.id
             <SocialIcons filter-social="Instagram" :size="2" />
           </div>
           <iframe
-            :src="`https://widget.tagembed.com/${tagembedId}?view`" class="overflow-auto w-full h-[330px] sm:h-[470px] md:h-[640px] lg:h-[820px] mb-5"
-            frameborder="0" allowtransparency="true"
+            title="Latest Instagram posts"
+            :src="`https://widget.tagembed.com/${tagembedId}?view`"
+            class="overflow-auto w-full h-[330px] sm:h-[470px] md:h-[640px] lg:h-[820px] mb-5"
           />
         </div>
       </div>

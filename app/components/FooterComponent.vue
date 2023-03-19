@@ -77,10 +77,23 @@ onMounted(() => {
     </div>
   </div>
   <div class="bg-black w-full border-t-[1px] border-primary">
-    <div class="container max-w-screen-xl my-0">
+    <div class="container max-w-screen-xl my-0 grid grid-cols-1 sm:grid-cols-2">
       <div class="text-center sm:text-left sm:flex sm:flex-wrap">
         <div class="w-full px-4 sm:px-6 lg:px-8 py-3 text-white text-xs">
           {{ t('footer.copyright') }} {{ date }}
+        </div>
+      </div>
+      <div class="text-center sm:text-right sm:flex sm:flex-wrap">
+        <div class="w-full px-4 sm:px-6 lg:px-8 pb-3 sm:py-3 text-white text-xs">
+          <span class="sm:text-right">
+            {{ t('footer.developed_with') }}
+            <NuxtLink href="https://nuxt.com/" target="_blank">
+              <Icon name="simple-icons:nuxtdotjs" class="hover:text-primary" />
+            </NuxtLink>
+            {{ t('news.by') }} <NuxtLink href="https://vernaillen.dev" class="hover:text-primary" target="_blank">
+              Wouter Vernaillen
+            </NuxtLink>
+          </span>
         </div>
       </div>
     </div>
