@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
     '@vueuse/nuxt',
+    'nuxt-gtag',
     'nuxt-icon',
   ],
   tailwindcss: {
@@ -24,6 +25,9 @@ export default defineNuxtConfig({
     resolve('./assets/css/prose.css'),
     'animate.css/animate.min.css',
   ],
+  gtag: {
+    id: 'G-X6YWCBBRVH',
+  },
   googleFonts: {
     download: true,
     display: 'swap',
