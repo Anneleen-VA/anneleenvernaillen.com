@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/image-edge',
     '@nuxtjs/google-fonts',
     '@nuxtjs/i18n',
+    '@nuxtjs/plausible',
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
     '@vueuse/nuxt',
@@ -27,6 +28,9 @@ export default defineNuxtConfig({
   ],
   gtag: {
     id: 'G-X6YWCBBRVH',
+  },
+  plausible: {
+    apiHost: 'https://anneleenvernaillen.com/plio',
   },
   googleFonts: {
     download: true,
