@@ -23,7 +23,8 @@
     "@nuxt/image-edge": "1.0.0-27991759.1a5eea1",
     "@nuxt/kit": "^3.3.2",
     "@nuxt/ui-templates": "^1.1.1",
-    "nuxt": "^3.3.2"
+    "nuxt": "^3.3.2",
+    "vue-gtag": "^2.0.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.37.0",
@@ -48,7 +49,6 @@
     "dayjs": "^1.11.7",
     "eslint": "^8.36.0",
     "nuxt-config-schema": "^0.4.5",
-    "nuxt-gtag": "^0.3.0",
     "nuxt-icon": "^0.3.3",
     "pinia": "^2.0.33",
     "release-it": "^15.9.3",
