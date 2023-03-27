@@ -52,7 +52,6 @@ importers:
       vee-validate: ^4.8.4
       vitest: ^0.29.7
       vue-easy-lightbox: ^1.15.0
-      vue-gtag: ^2.0.1
       yup: ^1.0.2
     dependencies:
       '@nuxt/content': 2.5.2
@@ -60,7 +59,6 @@ importers:
       '@nuxt/kit': 3.3.2
       '@nuxt/ui-templates': 1.1.1
       nuxt: 3.3.2_j4766f7ecgqbon3u7zlxn5zszu
-      vue-gtag: 2.0.1_vue@3.2.47
     devDependencies:
       '@antfu/eslint-config': 0.37.0_j4766f7ecgqbon3u7zlxn5zszu
       '@nuxt/test-utils': 3.3.2_vue@3.2.47
@@ -11470,14 +11468,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
-
-  /vue-gtag/2.0.1_vue@3.2.47:
-    resolution: {integrity: sha512-aM4A58FVL0wV2ptYi+xzAjeg+pQVRyUcfBc5UkXAwQrR4t3WBhor50Izp2I+3Oo7+l+vWJ7u78DGcNzReb8S/A==}
-    peerDependencies:
-      vue: ^3.0.0
-    dependencies:
-      vue: 3.2.47
-    dev: false
 
   /vue-i18n-routing/0.10.3_nojl5tq4gemnzytwc7cf7ndqfm:
     resolution: {integrity: sha512-U+tD43Lbv1+ZrMW2lDwF/suYfHc+ezeDZXSkyQOMcmsm/Brfw8CwpAx822Ur8SKYeUjsNLhIyEn9QX8df/Ey+Q==}
