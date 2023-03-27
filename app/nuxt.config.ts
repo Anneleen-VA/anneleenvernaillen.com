@@ -64,8 +64,12 @@ export default defineNuxtConfig({
       redirectOn: 'root', // recommended
     },
   },
-  generate: {
-    routes: ['/', '/about', '/art-initiation', '/ceramics', '/contact', '/graphic-design', '/news-archive', '/wall-art'],
+  ssr: true,
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/']
+    }
   },
   image: {
     provider: 'twicpics',
