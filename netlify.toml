@@ -10,4 +10,4 @@
   package = "@netlify/plugin-lighthouse"
 
   [[plugins.inputs.audits]]
-    url = "https://anneleen.netlify.app"
+    url = "https://anneleenvernaillen.com"
