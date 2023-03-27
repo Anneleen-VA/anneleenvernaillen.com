@@ -4,7 +4,7 @@
 
 [build]
   publish = "dist"
-  command = "pnpm --filter ./app/ run build && nuxi build"
+  command = "pnpm --filter ./app/ run build && nuxi build && cp _redirects dist/_redirects"
 
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
