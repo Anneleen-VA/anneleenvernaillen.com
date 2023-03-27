@@ -23,7 +23,8 @@
     "@nuxt/image-edge": "1.0.0-27991759.1a5eea1",
     "@nuxt/kit": "^3.3.2",
     "@nuxt/ui-templates": "^1.1.1",
-    "nuxt": "^3.3.2"
+    "nuxt": "^3.3.2",
+    "vue-gtag": "^2.0.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.37.0",
