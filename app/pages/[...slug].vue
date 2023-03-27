@@ -12,7 +12,7 @@ else setResponseStatus(404)
 </script>
 
 <template>
-  <div :class="isHydrated ? '' : 'opacity-20 blur-sm'">
+  <div>
     <HeaderImage />
     <div class="container max-w-screen-xl my-12 sm:my-16 xl:my-20">
       <div class="flex flex-wrap">

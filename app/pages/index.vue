@@ -7,7 +7,7 @@ setMetaData('Home')
 </script>
 
 <template>
-  <div :class="isHydrated ? '' : 'opacity-20 blur-sm'">
+  <div>
     <HeaderImage />
     <HighlightPages />
     <div class="bg-primary bg-opacity-[35%] w-full">
