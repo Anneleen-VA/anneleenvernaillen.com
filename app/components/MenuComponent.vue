@@ -1,5 +1,4 @@
 <script setup lang="ts">
-defineEmits(['hideNav'])
 const localePath = useLocalePath()
 const { data: navigation } = await useAsyncData('navigation', () =>
   queryContent('/')
@@ -32,7 +31,6 @@ const linkClass = (path?: string) => {
         sm:py-6
         xl:inline-flex xl:pl-1 xl:pr-0 xl:py-2 xl:ml-2 xl:mr-3"
         :class="linkClass(item._path)"
-        @click="$emit('hideNav')"
       >
         {{ item.title }}
       </NuxtLink>

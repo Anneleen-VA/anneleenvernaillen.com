@@ -1,16 +1,12 @@
 <script setup lang="ts">
+import { useMobileNav } from '../stores/mobileNav'
+const mobileNav = useMobileNav()
 const { t } = useI18n()
-const navbar = reactive({
-  show: false,
-})
-function navbarToggler() {
-  navbar.show = !navbar.show
-}
 const navbarTogglerClass = computed(() => {
-  return navbar.show ? 'navbarTogglerActive !fixed' : ''
+  return mobileNav.visible ? 'navbarTogglerActive !fixed' : ''
 })
 const navbarCollapseClass = computed(() => {
-  return navbar.show ? '' : 'hidden'
+  return mobileNav.visible ? '' : 'hidden'
 })
 </script>
 
@@ -47,7 +43,7 @@ const navbarCollapseClass = computed(() => {
             id="navbarToggler"
             class="block absolute cursor-pointer translate-y-[-50%] xl:hidden left-8 top-10 sm:top-[68px] sm:left-auto sm:right-10 px-2 py-[6px] z-30"
             :class="navbarTogglerClass" aria-label="Menu"
-            @click="navbarToggler"
+            @click="mobileNav.toggle()"
           >
             <span class="relative w-[30px] h-[2px] my-[6px] block bg-black transition" />
             <span class="relative w-[30px] h-[2px] my-[6px] block bg-black transition" />
@@ -69,10 +65,8 @@ const navbarCollapseClass = computed(() => {
               pt-24 pb-5 pr-2 sm:pt-36"
             >
               <div class="pl-14 sm:w-1/3 sm:pl-5 md:pl-20 mx-auto">
-                <menu-component
-                  @hide-nav="navbar.show = false"
-                />
-                <NuxtLink to="/" class="text-left block pt-5" @click="navbar.show = false">
+                <menu-component />
+                <NuxtLink to="/" class="text-left block pt-5">
                   <NuxtImg
                     src="/images/avembleemblag.png"
                     class="object-contain h-[55px] my-5 ml-[-18px]"
