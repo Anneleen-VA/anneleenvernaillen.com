@@ -2,18 +2,16 @@
 const { page } = useContent()
 const { t } = useI18n()
 const localePath = useLocalePath()
-const notFoundPage = ref()
 
 const { trigger } = usePolitePopup()
 trigger()
 
-if (page.value) {
+if (page.value)
   setMetaData(page.value.title)
-}
-else {
+else
   setResponseStatus(404)
-  notFoundPage.value = await queryContent(localePath('/_404')).findOne()
-}
+
+const notFoundPage = await queryContent(localePath('/_404')).findOne()
 </script>
 
 <template>
@@ -47,6 +45,7 @@ else {
                     <ContentRenderer :value="doc" :excerpt="false" />
                   </template>
                   <template #not-found>
+                    <h2>{{ notFoundPage.title }}</h2>
                     <ContentRenderer v-if="notFoundPage" :value="notFoundPage">
                       <ContentRendererMarkdown :value="notFoundPage" />
                     </ContentRenderer>
