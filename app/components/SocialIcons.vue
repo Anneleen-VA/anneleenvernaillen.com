@@ -23,7 +23,7 @@ const socials = appConfig.socials.filter((social) => {
 
   return false
 })
-const iconColors = () => {
+function iconColors() {
   return `${props.colors} mx-1`
 }
 </script>

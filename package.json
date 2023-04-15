@@ -7,7 +7,8 @@
   "author": "Wouter Vernaillen",
   "scripts": {
     "dev": "nuxi prepare & nuxi dev --open",
-    "pull": "git pull & pnpm install"
+    "pull": "git pull & pnpm install",
+    "fulltest": "pnpm --filter ./app/ run fulltest && pnpm run dev"
   },
   "engines": {
     "node": ">=18",

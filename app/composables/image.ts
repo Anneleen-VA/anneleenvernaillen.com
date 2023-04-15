@@ -1,4 +1,4 @@
-export const useImagePath = (path: string, type?: string) => {
+export function useImagePath(path: string, type?: string) {
   if (path.startsWith('/public/'))
     return `${path.substring('/public/'.length)}`
   else if (type && type?.length > 0)

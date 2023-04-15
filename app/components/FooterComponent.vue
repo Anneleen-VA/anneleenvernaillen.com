@@ -10,7 +10,7 @@ const { data: navigation } = await useAsyncData('navigation', () =>
 )
 
 const localePath = useLocalePath()
-const linkClass = (path?: string) => {
+function linkClass(path?: string) {
   if (!path)
     return ''
   const currentRoute = useRoute().path
@@ -23,7 +23,7 @@ const linkClass = (path?: string) => {
   return classToAdd
 }
 
-const scrollToTop = () => {
+function scrollToTop() {
   scrollToElement('__nuxt')
 }
 

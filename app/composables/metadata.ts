@@ -1,4 +1,4 @@
-export const setMetaData = (pageTitle: string) => {
+export function setMetaData(pageTitle: string) {
   const { t } = useI18n()
   useHead({
     meta: [

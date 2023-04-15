@@ -7,7 +7,7 @@ const { data: navigation } = await useAsyncData('navigation', () =>
     .find(),
 )
 
-const linkClass = (path?: string) => {
+function linkClass(path?: string) {
   if (!path)
     return ''
   const currentRoute = useRoute().path

@@ -16,7 +16,7 @@
     "coverage": "vitest run --coverage",
     "clean": "pnpm recursive exec -- rm -rf node_modules; rm -rf node_modules",
     "generateAdminCss": "tailwindcss -i ./assets/css/tailwind.css -o ./cms/public/css/tailwind.css && tailwindcss -i ./assets/css/prose.css -o ./cms/public/css/prose.css && tailwindcss -i ./assets/css/markdown.css -o ./cms/public/css/markdown.css",
-    "fulltest": "pnpm run clean && pnpm config set auto-install-peers true && pnpm install --shamefully-hoist=true && pnpm run lint && pnpm run test && pnpm run build && pnpm run dev"
+    "fulltest": "pnpm run clean && pnpm config set auto-install-peers true && pnpm install --shamefully-hoist=true && pnpm run lint && pnpm run coverage && pnpm run build"
   },
   "dependencies": {
     "@nuxt/content": "^2.5.2",

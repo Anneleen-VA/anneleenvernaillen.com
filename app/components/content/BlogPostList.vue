@@ -15,7 +15,7 @@ const { data } = await useAsyncData(`content-${path}`, () =>
     .limit(props.nrOfPosts)
     .find(),
 )
-const animateDurationClass = (index: number) => {
+function animateDurationClass(index: number) {
   return `animate-duration-${index * 1000}, animate-delay-${index * 100}`
 }
 </script>
