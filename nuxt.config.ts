@@ -8,4 +8,6 @@ export default defineNuxtConfig({
   extends: [
     './app',
   ],
+
+  devtools: true
 })

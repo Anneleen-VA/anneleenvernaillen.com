@@ -1,6 +1,6 @@
 {
   "name": "anneleenvernaillen.com",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "",
   "keywords": [],
   "license": "ISC",
@@ -14,11 +14,11 @@
     "pnpm": ">=7"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.4.0",
-    "app": "workspace:^0.5.3"
+    "@nuxt/kit": "^3.4.1",
+    "app": "workspace:^0.5.4"
   },
   "devDependencies": {
-    "consola": "^3.0.1",
-    "nuxt": "^3.4.0"
+    "@nuxt/devtools": "^0.4.0",
+    "nuxt": "^3.4.1"
   }
 }
