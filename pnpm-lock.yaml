@@ -127,14 +127,14 @@ importers:
         specifier: ^5.0.4
         version: 5.0.4
       vee-validate:
-        specifier: ^4.8.5
-        version: 4.8.5(vue@3.2.47)
+        specifier: ^4.8.6
+        version: 4.8.6(vue@3.2.47)
       vitest:
         specifier: ^0.30.1
         version: 0.30.1
       vue-easy-lightbox:
-        specifier: ^1.15.0
-        version: 1.15.0(vue@3.2.47)
+        specifier: ^1.16.0
+        version: 1.16.0(vue@3.2.47)
       yup:
         specifier: ^1.1.1
         version: 1.1.1
@@ -10832,6 +10832,15 @@ packages:
       ajv-keywords: 3.5.2(ajv@6.12.6)
     dev: true
 
+  /schema-utils@3.1.2:
+    resolution: {integrity: sha512-pvjEHOgWc9OWA/f/DE3ohBWTD6EleVLf7iFUkoSwAxttdBhB9QUebQgxER2kWueOvRJXPHNnyrvvh9eZINB8Eg==}
+    engines: {node: '>= 10.13.0'}
+    dependencies:
+      '@types/json-schema': 7.0.11
+      ajv: 6.12.6
+      ajv-keywords: 3.5.2(ajv@6.12.6)
+    dev: true
+
   /scule@1.0.0:
     resolution: {integrity: sha512-4AsO/FrViE/iDNEPaAQlb77tf0csuq27EsVpy6ett584EcRTp6pTDLoGWVxCD77y5iU5FauOvhsI4o1APwPoSQ==}
 
@@ -11554,7 +11563,7 @@ packages:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.18
       jest-worker: 27.5.1
-      schema-utils: 3.1.1
+      schema-utils: 3.1.2
       serialize-javascript: 6.0.1
       terser: 5.16.9
       webpack: 5.79.0
@@ -12236,8 +12245,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vee-validate@4.8.5(vue@3.2.47):
-    resolution: {integrity: sha512-371c9sx6EfXoomuu9psSd+VGsKL9sbWeuRyN9x2a4tq0q8l1VdYMU9Xv6jhCez4MZykgWA7flpwXfbGzXR0/lw==}
+  /vee-validate@4.8.6(vue@3.2.47):
+    resolution: {integrity: sha512-d8SS1mfFn3qv/QRwy9BQ/0ZmoxQT37zG7zERUSK5NvmI7gx7IbQxOIXtyYVEPaDJNI4QWopBe48q91pAQqwetA==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
@@ -12614,8 +12623,8 @@ packages:
   /vue-devtools-stub@0.1.0:
     resolution: {integrity: sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==}
 
-  /vue-easy-lightbox@1.15.0(vue@3.2.47):
-    resolution: {integrity: sha512-iPjNmCHHUZQdmJoM85pBNwPqY93KKPOpWPuHPMq7VD3V0CSa/gzrf+Aa7cD/rhD0rAxxE13cvN9AozRTDgIBRw==}
+  /vue-easy-lightbox@1.16.0(vue@3.2.47):
+    resolution: {integrity: sha512-9ckBIi56kTNkfbxioTBLKR3xnFjmkIs4SOvePn6XUciR+Dzuav0tgNjqDHkfsoo3nxIpUmfpQAT0YDl9TpJ5jA==}
     engines: {node: '>=14.18.3'}
     peerDependencies:
       vue: ^3.0.0
@@ -12815,7 +12824,7 @@ packages:
       loader-runner: 4.3.0
       mime-types: 2.1.35
       neo-async: 2.6.2
-      schema-utils: 3.1.1
+      schema-utils: 3.1.2
       tapable: 2.2.1
       terser-webpack-plugin: 5.3.7(webpack@5.79.0)
       watchpack: 2.4.0
