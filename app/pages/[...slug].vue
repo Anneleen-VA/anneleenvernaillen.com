@@ -6,10 +6,13 @@ const localePath = useLocalePath()
 const { trigger } = usePolitePopup()
 trigger()
 
-if (page.value)
+if (page.value) {
   setMetaData(page.value.title)
-else
-  setResponseStatus(404)
+}
+else {
+  const event = useRequestEvent()
+  setResponseStatus(event, 404)
+}
 
 const notFoundPage = await queryContent(localePath('/_404')).findOne()
 </script>
