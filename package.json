@@ -15,11 +15,11 @@
     "pnpm": ">=7"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.4.1",
+    "@nuxt/kit": "^3.4.2",
     "app": "workspace:^0.6.0"
   },
   "devDependencies": {
     "@nuxt/devtools": "^0.4.1",
-    "nuxt": "^3.4.1"
+    "nuxt": "^3.4.2"
   }
 }
