@@ -35,7 +35,11 @@ onMounted(() => {
   @apply !text-white !rounded-lg !font-medium !bg-black !py-1 !px-3 !shadow-none
 }
 
-#sb_instagram  #sbi_images .sbi_inner_wrap {
+#sb_instagram .sbi_follow_btn a:hover {
+  @apply !shadow-md
+}
+
+#sb_instagram #sbi_images .sbi_inner_wrap {
   @apply !rounded-lg !shadow-md
 }
 </style>
