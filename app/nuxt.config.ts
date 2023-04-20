@@ -65,13 +65,6 @@ export default defineNuxtConfig({
       redirectOn: 'root', // recommended
     },
   },
-  ssr: true,
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-      routes: ['/'],
-    },
-  },
   image: {
     provider: 'twicpics',
     twicpics: {
