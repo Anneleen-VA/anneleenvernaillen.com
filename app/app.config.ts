@@ -16,8 +16,10 @@ export default defineAppConfig({
       icon: 'mdi:whatsapp',
     },
   ],
-  tagembed: {
-    id: '80538',
+  instagram: {
+    enabled: true,
+    wpPageId: 30201,
+    wpBaseUrl: 'https://wpanneleen.vernaillen.com/',
   },
   dateFormat: 'MMMM YYYY',
   mailchimpLink: 'https://mailchi.mp/360379361b88/subscriptionpage',

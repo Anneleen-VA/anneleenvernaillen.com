@@ -8,15 +8,19 @@ useHead({
     { rel: 'icon', type: 'image/x-icon', href: 'https://anneleenvernaillen.com/favicon.png' },
   ],
 })
+const route = useRoute()
+const isIG = computed(() => {
+  return route.path.startsWith('/instagram')
+})
 </script>
 
 <template>
-  <NuxtLoadingIndicator color="repeating-linear-gradient(to right,#DCD8D1 0%,#707070 50%,#DCD8D1 100%)" />
-  <HeaderComponent />
+  <NuxtLoadingIndicator v-if="!isIG" color="repeating-linear-gradient(to right,#DCD8D1 0%,#707070 50%,#DCD8D1 100%)" />
+  <HeaderComponent v-if="!isIG" />
   <NuxtPage />
-  <FooterComponent />
-  <easy-lightbox />
-  <PolitePopup />
+  <FooterComponent v-if="!isIG" />
+  <easy-lightbox v-if="!isIG" />
+  <PolitePopup v-if="!isIG" />
 </template>
 
 <style>

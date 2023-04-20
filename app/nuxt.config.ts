@@ -3,6 +3,9 @@ import { createResolver } from '@nuxt/kit'
 const { resolve } = createResolver(import.meta.url)
 
 export default defineNuxtConfig({
+  extends: [
+    '@vernaillen/nuxt-base-layer',
+  ],
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
   },
@@ -21,10 +24,7 @@ export default defineNuxtConfig({
     viewer: false,
   },
   css: [
-    resolve('./assets/css/tailwind.css'),
-    resolve('./assets/css/markdown.css'),
-    resolve('./assets/css/prose.css'),
-    'animate.css/animate.min.css',
+    resolve('./assets/css/main.css'),
   ],
   plausible: {
     apiHost: 'https://anneleenvernaillen.com/plio',

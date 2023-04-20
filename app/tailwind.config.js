@@ -23,15 +23,17 @@ module.exports = {
       '2xl': '1440px',
       '3xl': '1920px',
     },
-    colors: {
-      white: '#FFFEFD',
-      black: '#222222',
-      gray: '#707070',
-      primary: '#DCD8D1',
-    },
-    fontFamily: {
-      sans: ['Inter', 'sans-serif'],
-      serif: ['Inter', 'serif'],
+    extend: {
+      colors: {
+        white: '#FFFEFD',
+        black: '#222222',
+        gray: '#707070',
+        primary: '#DCD8D1',
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        serif: ['Inter', 'serif'],
+      },
     },
   },
   plugins: [
