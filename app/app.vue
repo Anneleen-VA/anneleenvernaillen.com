@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useRoute } from '#imports'
+
 useHead({
   htmlAttrs: {
     lang: 'en',
