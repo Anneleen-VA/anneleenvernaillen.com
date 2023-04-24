@@ -22,7 +22,7 @@
     "@nuxt/image-edge": "1.0.0-28020728.5df24eb",
     "@nuxt/kit": "^3.4.2",
     "@nuxt/ui-templates": "^1.1.1",
-    "@vernaillen/nuxt-base-layer": "0.1.16",
+    "@vernaillen/nuxt-base-layer": "0.1.17",
     "nuxt": "^3.4.2",
     "vue-gtag": "^2.0.1"
   },
