@@ -1,6 +1,3 @@
-<script setup lang="ts">
-</script>
-
 <template>
   <div class="bg-primary bg-opacity-[35%] w-full">
     <div class="container max-w-screen-xl">

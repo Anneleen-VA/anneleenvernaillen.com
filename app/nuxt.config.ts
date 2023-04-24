@@ -25,6 +25,8 @@ export default defineNuxtConfig({
   },
   css: [
     resolve('./assets/css/main.css'),
+    resolve('./assets/css/markdown.css'),
+    resolve('./assets/css/prose.css'),
   ],
   plausible: {
     apiHost: 'https://anneleenvernaillen.com/plio',
