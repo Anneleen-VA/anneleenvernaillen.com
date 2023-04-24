@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import InstagramIframeLocal from './InstagramIframeLocal.vue'
 </script>
 
 <template>
@@ -10,7 +9,7 @@ import InstagramIframeLocal from './InstagramIframeLocal.vue'
           <div class="mb-3 p-1">
             <SocialIcons filter-social="Instagram" :size="2" />
           </div>
-          <InstagramIframeLocal />
+          <InstagramIframe />
         </div>
       </div>
     </div>
