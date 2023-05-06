@@ -8,7 +8,7 @@ importers:
         specifier: ^3.4.3
         version: 3.4.3
       app:
-        specifier: workspace:^0.6.1
+        specifier: workspace:^0.6.3
         version: link:app
     devDependencies:
       '@nuxt/devtools':
