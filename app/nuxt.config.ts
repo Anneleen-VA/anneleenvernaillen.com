@@ -4,10 +4,10 @@ const { resolve } = createResolver(import.meta.url)
 
 export default defineNuxtConfig({
   extends: [
-    '@vernaillen/nuxt-base-layer',
+    '@vernaillen/nuxt-base-layer'
   ],
   app: {
-    pageTransition: { name: 'page', mode: 'out-in' },
+    pageTransition: { name: 'page', mode: 'out-in' }
   },
   modules: [
     '@nuxt/content',
@@ -18,18 +18,18 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
     '@vueuse/nuxt',
-    'nuxt-icon',
+    'nuxt-icon'
   ],
   tailwindcss: {
-    viewer: false,
+    viewer: false
   },
   css: [
     resolve('./assets/css/main.css'),
     resolve('./assets/css/markdown.css'),
-    resolve('./assets/css/prose.css'),
+    resolve('./assets/css/prose.css')
   ],
   plausible: {
-    apiHost: 'https://anneleenvernaillen.com/plio',
+    apiHost: 'https://anneleenvernaillen.com/plio'
   },
   googleFonts: {
     download: true,
@@ -37,22 +37,22 @@ export default defineNuxtConfig({
     families: {
       Poppins: {
         wght: [200, 300, 400, 500, 700],
-        ital: [200, 300, 400, 500, 700],
-      },
-    },
+        ital: [200, 300, 400, 500, 700]
+      }
+    }
   },
   content: {
     documentDriven: true,
     markdown: {
-      remarkPlugins: ['remark-directive-rehype'],
+      remarkPlugins: ['remark-directive-rehype']
     },
     highlight: {
       theme: {
         dark: 'github-dark',
-        default: 'github-light',
+        default: 'github-light'
       },
-      preload: ['json', 'js', 'ts', 'html', 'css', 'vue', 'diff', 'shell', 'markdown', 'yaml', 'bash', 'ini'],
-    },
+      preload: ['json', 'js', 'ts', 'html', 'css', 'vue', 'diff', 'shell', 'markdown', 'yaml', 'bash', 'ini']
+    }
   },
   i18n: {
     strategy: 'prefix_and_default',
@@ -60,27 +60,27 @@ export default defineNuxtConfig({
     langDir: './locales/',
     locales: [
       { code: 'en', iso: 'en-US', file: 'en.yml' },
-      { code: 'nl', iso: 'en-BE', file: 'nl.yml' },
+      { code: 'nl', iso: 'en-BE', file: 'nl.yml' }
     ],
     detectBrowserLanguage: {
       useCookie: true,
-      redirectOn: 'root', // recommended
-    },
+      redirectOn: 'root' // recommended
+    }
   },
   ssr: true,
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ['/', '/instagram', '/api/instagram'],
-    },
+      routes: ['/', '/instagram', '/api/instagram']
+    }
   },
   image: {
     provider: 'twicpics',
     twicpics: {
-      baseURL: 'https://vernaillen.twic.pics/anneleen',
+      baseURL: 'https://vernaillen.twic.pics/anneleen'
     },
     modifiers: {
-      format: 'webp',
-    },
-  },
+      format: 'webp'
+    }
+  }
 })

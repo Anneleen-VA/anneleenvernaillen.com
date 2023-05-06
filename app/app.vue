@@ -3,12 +3,12 @@ import { useRoute } from '#imports'
 
 useHead({
   htmlAttrs: {
-    lang: 'en',
+    lang: 'en'
   },
   titleTemplate: (title?: string) => `${title} - Anneleen Vernaillen | Visual Artist`,
   link: [
-    { rel: 'icon', type: 'image/x-icon', href: 'https://anneleenvernaillen.com/favicon.png' },
-  ],
+    { rel: 'icon', type: 'image/x-icon', href: 'https://anneleenvernaillen.com/favicon.png' }
+  ]
 })
 const route = useRoute()
 const isIG = computed(() => {

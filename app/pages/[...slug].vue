@@ -8,8 +8,7 @@ trigger()
 
 if (page.value) {
   setMetaData(page.value.title)
-}
-else {
+} else {
   const event = useRequestEvent()
   setResponseStatus(event, 404)
 }
