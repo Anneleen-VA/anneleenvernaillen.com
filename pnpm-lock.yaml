@@ -48,6 +48,9 @@ importers:
       '@nuxt/test-utils':
         specifier: ^3.4.3
         version: 3.4.3(vitest@0.31.0)(vue@3.2.47)
+      '@nuxthq/studio':
+        specifier: ^0.12.1
+        version: 0.12.1
       '@nuxtjs/axios':
         specifier: ^5.13.6
         version: 5.13.6
