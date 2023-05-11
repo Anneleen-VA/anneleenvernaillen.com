@@ -8,6 +8,10 @@ export default defineNuxtConfig({
     './app',
   ],
 
+  modules: [
+    '@nuxthq/studio'
+  ],
+
   devtools: {
     enabled: true
   }
