@@ -1,6 +1,6 @@
 {
   "name": "anneleenvernaillen.com",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "description": "",
   "keywords": [],
   "license": "ISC",
@@ -11,17 +11,17 @@
     "fulltest": "pnpm --filter ./app/ run fulltest && pnpm run dev"
   },
   "engines": {
-    "node": ">=18",
+    "node": ">=16",
     "pnpm": ">=7"
   },
-  "packageManager": "pnpm@8.4.0",
+  "packageManager": "pnpm@8.3.1",
   "dependencies": {
-    "@nuxt/kit": "^3.4.3",
-    "app": "workspace:^0.6.3"
+    "@nuxt/kit": "^3.5.2",
+    "app": "workspace:^0.6.4"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^0.4.6",
-    "@nuxthq/studio": "^0.12.1",
-    "nuxt": "^3.4.3"
+    "@nuxt/devtools": "^0.5.5",
+    "@nuxthq/studio": "^0.13.2",
+    "nuxt": "^3.5.2"
   }
 }

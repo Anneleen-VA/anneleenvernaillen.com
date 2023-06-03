@@ -1,7 +1,7 @@
 {
   "name": "app",
   "type": "module",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "private": false,
   "main": "./nuxt.config.ts",
   "scripts": {
@@ -88,5 +88,5 @@
       "publish": false
     }
   },
-  "packageManager": "pnpm@8.4.0"
+  "packageManager": "pnpm@8.3.1"
 }
