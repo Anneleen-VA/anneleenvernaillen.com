@@ -87,6 +87,5 @@
     "npm": {
       "publish": false
     }
-  },
-  "packageManager": "pnpm@8.3.1"
+  }
 }

@@ -14,7 +14,6 @@
     "node": ">=16",
     "pnpm": ">=7"
   },
-  "packageManager": "pnpm@8.3.1",
   "dependencies": {
     "@nuxt/kit": "^3.5.2",
     "app": "workspace:^0.6.4"
