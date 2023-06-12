@@ -31,8 +31,8 @@ importers:
         specifier: ^2.6.0
         version: 2.6.0
       '@nuxt/image-edge':
-        specifier: 1.0.0-rc.1-28106434.299e03e
-        version: 1.0.0-rc.1-28106434.299e03e
+        specifier: 1.0.0-rc.1-28109383.55ca3fc
+        version: 1.0.0-rc.1-28109383.55ca3fc
       '@nuxt/kit':
         specifier: ^3.5.3
         version: 3.5.3
@@ -49,9 +49,9 @@ importers:
         specifier: ^2.0.1
         version: 2.0.1(vue@3.3.4)
     devDependencies:
-      '@nuxt/test-utils':
-        specifier: ^3.5.3
-        version: 3.5.3(vitest@0.32.0)(vue@3.3.4)
+      '@nuxt/test-utils-edge':
+        specifier: 3.6.0-28108658.05a8c2d9
+        version: 3.6.0-28108658.05a8c2d9(vitest@0.32.0)(vue@3.3.4)
       '@nuxthq/studio':
         specifier: ^0.13.2
         version: 0.13.2
@@ -88,9 +88,6 @@ importers:
       '@tailwindcss/typography':
         specifier: ^0.5.9
         version: 0.5.9(tailwindcss@3.3.2)
-      '@vitest/coverage-c8':
-        specifier: ^0.32.0
-        version: 0.32.0(vitest@0.32.0)
       '@vitest/coverage-v8':
         specifier: ^0.32.0
         version: 0.32.0(vitest@0.32.0)
@@ -174,6 +171,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/highlight': 7.18.6
+    dev: true
 
   /@babel/code-frame@7.22.5:
     resolution: {integrity: sha512-Xmwn266vad+6DAqEB2A6V/CcZVp62BbwVmcOJc2RPuwih1kw02TjQvWVWlcKGbBPd+8/0V5DEkOcizRGYsspYQ==}
@@ -518,6 +516,7 @@ packages:
   /@babel/helper-string-parser@7.21.5:
     resolution: {integrity: sha512-5pTUx3hAJaZIdW99sJ6ZUUgWq/Y+Hja7TowEnLNMm1VivRgZQL3vpBY3qUACVsvw+yQU6+YgfBVmcbLaZtrA1w==}
     engines: {node: '>=6.9.0'}
+    dev: true
 
   /@babel/helper-string-parser@7.22.5:
     resolution: {integrity: sha512-mM4COjgZox8U+JcXQwPijIZLElkgEpO5rsERVDJTc2qfCDfERyob6k5WegS14SX18IIjv+XD+GrqNumY5JRCDw==}
@@ -526,6 +525,7 @@ packages:
   /@babel/helper-validator-identifier@7.19.1:
     resolution: {integrity: sha512-awrNfaMtnHUr653GgGEs++LlAvW6w+DcPrOliSMXWCKo597CwL5Acf/wWdNkf/tfEQE3mjkeD1YOVZOUV/od1w==}
     engines: {node: '>=6.9.0'}
+    dev: true
 
   /@babel/helper-validator-identifier@7.22.5:
     resolution: {integrity: sha512-aJXu+6lErq8ltp+JhkJUfk1MTGyuA4v7f3pA+BJ5HLfNC6nAQ0Cpi9uOquUj8Hehg0aUiHzWQbOVJGao6ztBAQ==}
@@ -568,6 +568,7 @@ packages:
       '@babel/helper-validator-identifier': 7.19.1
       chalk: 2.4.2
       js-tokens: 4.0.0
+    dev: true
 
   /@babel/highlight@7.22.5:
     resolution: {integrity: sha512-BSKlD1hgnedS5XRnGOljZawtag7H1yPfQp0tdNJCHoH6AZ+Pcm9VvkrK59/Yy593Ypg0zMxH2BxD1VPYUQ7UIw==}
@@ -582,7 +583,7 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      '@babel/types': 7.22.4
+      '@babel/types': 7.22.5
 
   /@babel/parser@7.22.5:
     resolution: {integrity: sha512-DFZMC9LJUG9PLOclRC32G63UXwzqS2koQC8dkx+PLdmt1xSePYpbT/NbsrJy8Q/muXz7o/h/d4A7Fuyixm559Q==}
@@ -737,6 +738,7 @@ packages:
       '@babel/helper-string-parser': 7.21.5
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
+    dev: true
 
   /@babel/types@7.22.5:
     resolution: {integrity: sha512-zo3MIHGOkPOfoRXitsgHLjEXmlDaD/5KU1Uzuc9GNiZPhSqVxVRtxuPaSBZDsYZ9qV88AjtMtWW7ww98loJ9KA==}
@@ -1596,8 +1598,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@nuxt/image-edge@1.0.0-rc.1-28106434.299e03e:
-    resolution: {integrity: sha512-X2IlPsXOLawpiKEdlS408S57+OYqoRjlGyKcI/xQAynXjSo8X5JIKam7YlL4iBu/Rk8Qicfyvgl7cjR9jVGJDA==}
+  /@nuxt/image-edge@1.0.0-rc.1-28109383.55ca3fc:
+    resolution: {integrity: sha512-CyqRYNkW88MtCfGnxt4e2mmgRw09YKWUELLTFKHTbYSkHX8e1S3pSAjEgasfA9tdnLnqRT7ctPSsjS4nQJJ1oA==}
     engines: {node: ^14.16.0 || >=16.11.0}
     dependencies:
       '@nuxt/kit': 3.5.3
@@ -1616,6 +1618,32 @@ packages:
       - rollup
       - supports-color
     dev: false
+
+  /@nuxt/kit-edge@3.6.0-28108658.05a8c2d9:
+    resolution: {integrity: sha512-VKb25qnnZy1+xZsprcfD4zfKiwLWGzJ7Halju6dkYhQC2/pW3aNEMCpC59c83QdAizzE5Hazdh+/kXA29k5DXw==}
+    engines: {node: ^14.18.0 || >=16.10.0}
+    dependencies:
+      '@nuxt/schema': /@nuxt/schema-edge@3.6.0-28108658.05a8c2d9
+      c12: 1.4.1
+      consola: 3.1.0
+      defu: 6.1.2
+      globby: 13.1.4
+      hash-sum: 2.0.0
+      ignore: 5.2.4
+      jiti: 1.18.2
+      knitwork: 1.0.0
+      mlly: 1.3.0
+      pathe: 1.1.1
+      pkg-types: 1.0.3
+      scule: 1.0.0
+      semver: 7.5.1
+      unctx: 2.3.1
+      unimport: 3.0.8(rollup@3.25.0)
+      untyped: 1.3.2
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
 
   /@nuxt/kit@3.4.1:
     resolution: {integrity: sha512-VeH26umZW6Rf4F1QX9nTIuTBp6HeL/MgmKY3+FgQiLD07afgFTLUJZohVE5xU7hb66zCnYvwKxa3JpjXFJZrhQ==}
@@ -1682,6 +1710,24 @@ packages:
       semver: 7.5.1
     transitivePeerDependencies:
       - webpack
+
+  /@nuxt/schema-edge@3.6.0-28108658.05a8c2d9:
+    resolution: {integrity: sha512-AqH1DRjd4CRENwQYmE539MlFkYtS3mE6vRp5/EJpr0/nE6ppnGUQYeFJLolSHCzeeAFOjuW9tM39aKsCaOpoyA==}
+    engines: {node: ^14.18.0 || >=16.10.0}
+    dependencies:
+      defu: 6.1.2
+      hookable: 5.5.3
+      pathe: 1.1.1
+      pkg-types: 1.0.3
+      postcss-import-resolver: 2.0.0
+      std-env: 3.3.3
+      ufo: 1.1.2
+      unimport: 3.0.8(rollup@3.25.0)
+      untyped: 1.3.2
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
 
   /@nuxt/schema@3.4.1:
     resolution: {integrity: sha512-xhPh9JfVKXRQVfdUT6BKieDTCljBjbIGgGCQnxplVi4FUTWRKUXR7MFwsobr5D9AJpeE0mg5/kRRh5gUX37vAQ==}
@@ -1750,13 +1796,13 @@ packages:
       - rollup
       - supports-color
 
-  /@nuxt/test-utils@3.5.3(vitest@0.32.0)(vue@3.3.4):
-    resolution: {integrity: sha512-ujkOrn3Qvd+6TREsg4h6Vm1YbPgwl70qh9s6jQiEIGhaH9wqXUUgbHEdWelUMeRO+jbV1X4rtd7Sdww/rfR5lA==}
+  /@nuxt/test-utils-edge@3.6.0-28108658.05a8c2d9(vitest@0.32.0)(vue@3.3.4):
+    resolution: {integrity: sha512-QxFgKt09+HrmfpkWUI+2g2NSJ/TvOx6bTTNWGYqgFh+MZl9K//csr2LArYpSuS/tZIFUzh8+NGhL67F4WIC9yA==}
     engines: {node: ^14.18.0 || >=16.10.0}
     peerDependencies:
       '@jest/globals': ^29.5.0
       playwright: ^1.34.3
-      vitest: ^0.30.0 || ^0.31.0
+      vitest: ^0.30.0 || ^0.31.0 || ^0.32.0
       vue: ^3.3.4
     peerDependenciesMeta:
       '@jest/globals':
@@ -1766,8 +1812,8 @@ packages:
       vitest:
         optional: true
     dependencies:
-      '@nuxt/kit': 3.5.3
-      '@nuxt/schema': 3.5.3
+      '@nuxt/kit': /@nuxt/kit-edge@3.6.0-28108658.05a8c2d9
+      '@nuxt/schema': /@nuxt/schema-edge@3.6.0-28108658.05a8c2d9
       consola: 3.1.0
       defu: 6.1.2
       execa: 7.1.1
@@ -2761,19 +2807,6 @@ packages:
       vite: 4.3.9(@types/node@20.3.0)
       vue: 3.3.4
 
-  /@vitest/coverage-c8@0.32.0(vitest@0.32.0):
-    resolution: {integrity: sha512-FeTzRN5VCL7B6YTRK5ZPQO2iwJzl2x7/mTQ/2uEeKZatAYBtvczeAYnzSUhCPev7p99+5skxMQZwqVcFTrVCdg==}
-    peerDependencies:
-      vitest: '>=0.30.0 <1'
-    dependencies:
-      '@ampproject/remapping': 2.2.1
-      c8: 7.14.0
-      magic-string: 0.30.0
-      picocolors: 1.0.0
-      std-env: 3.3.3
-      vitest: 0.32.0
-    dev: true
-
   /@vitest/coverage-v8@0.32.0(vitest@0.32.0):
     resolution: {integrity: sha512-VXXlWq9X/NbsoP/l/CHLBjutsFFww1UY1qEhzGjn/DY7Tqe+z0Nu8XKc8im/XUAmjiWsh2XV7sy/F0IKAl4eaw==}
     peerDependencies:
@@ -3661,7 +3694,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001499
+      caniuse-lite: 1.0.30001502
       electron-to-chromium: 1.4.427
       node-releases: 2.0.12
       update-browserslist-db: 1.0.11(browserslist@4.21.7)
@@ -3734,25 +3767,6 @@ packages:
       rc9: 2.1.0
     transitivePeerDependencies:
       - supports-color
-
-  /c8@7.14.0:
-    resolution: {integrity: sha512-i04rtkkcNcCf7zsQcSv/T9EbUn4RXQ6mropeMcjFOsQXQ0iGLAr/xT6TImQg4+U9hmNpN9XdvPkjUL1IzbgxJw==}
-    engines: {node: '>=10.12.0'}
-    hasBin: true
-    dependencies:
-      '@bcoe/v8-coverage': 0.2.3
-      '@istanbuljs/schema': 0.1.3
-      find-up: 5.0.0
-      foreground-child: 2.0.0
-      istanbul-lib-coverage: 3.2.0
-      istanbul-lib-report: 3.0.0
-      istanbul-reports: 3.1.5
-      rimraf: 3.0.2
-      test-exclude: 6.0.0
-      v8-to-istanbul: 9.1.0
-      yargs: 16.2.0
-      yargs-parser: 20.2.9
-    dev: true
 
   /cac@6.7.14:
     resolution: {integrity: sha512-b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ==}
@@ -3860,12 +3874,15 @@ packages:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
       browserslist: 4.21.7
-      caniuse-lite: 1.0.30001499
+      caniuse-lite: 1.0.30001502
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
 
   /caniuse-lite@1.0.30001499:
     resolution: {integrity: sha512-IhoQqRrW6WiecFcfZgoJS1YLEN1/HR1vHP5WNgjCARRW7KUNToHHTX3FrwCM+y4zkRa48D9rE90WFYc2IWhDWQ==}
+
+  /caniuse-lite@1.0.30001502:
+    resolution: {integrity: sha512-AZ+9tFXw1sS0o0jcpJQIXvFTOB/xGiQ4OQ2t98QX3NDn2EZTSRBC801gxrsGgViuq2ak/NLkNgSNEPtCr5lfKg==}
 
   /caseless@0.12.0:
     resolution: {integrity: sha512-4tYFyifaFfGacoiObjJegolkwSU4xQNGbVgUiNYVUxbQ2x2lUsFvY4hVgVzGiIe6WLOPqycWXA40l+PWsxthUw==}
@@ -4047,14 +4064,6 @@ packages:
       arch: 2.2.0
       execa: 5.1.1
       is-wsl: 2.2.0
-
-  /cliui@7.0.4:
-    resolution: {integrity: sha512-OcRE68cOsVMXp1Yvonl/fzkQOyjLSu/8bhPDfQt0e0/Eb283TKP20Fs2MqoPsr9SwA595rRCA+QMzYc9nBP+JQ==}
-    dependencies:
-      string-width: 4.2.3
-      strip-ansi: 6.0.1
-      wrap-ansi: 7.0.0
-    dev: true
 
   /cliui@8.0.1:
     resolution: {integrity: sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ==}
@@ -5210,7 +5219,7 @@ packages:
     peerDependencies:
       eslint: '>=8.23.1'
     dependencies:
-      '@babel/helper-validator-identifier': 7.19.1
+      '@babel/helper-validator-identifier': 7.22.5
       ci-info: 3.8.0
       clean-regexp: 1.0.0
       eslint: 8.42.0
@@ -5642,14 +5651,6 @@ packages:
     resolution: {integrity: sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==}
     dependencies:
       is-callable: 1.2.7
-    dev: true
-
-  /foreground-child@2.0.0:
-    resolution: {integrity: sha512-dCIq9FpEcyQyXKCkyzmlPTFNgrCzPudOe+mhvJU5zAtlBnGVy2yKxtfsxK2tQBThwq225jcvBjpw1Gr40uzZCA==}
-    engines: {node: '>=8.0.0'}
-    dependencies:
-      cross-spawn: 7.0.3
-      signal-exit: 3.0.7
     dev: true
 
   /foreground-child@3.1.1:
@@ -6094,7 +6095,7 @@ packages:
       iron-webcrypto: 0.7.0
       radix3: 1.0.1
       ufo: 1.1.2
-      uncrypto: 0.1.2
+      uncrypto: 0.1.3
 
   /has-bigints@1.0.2:
     resolution: {integrity: sha512-tSvCKtBr9lkF0Ex0aQiP9N+OpV4zi2r/Nee5VkRDbaqv35RLYMzbwQfFSZZH0kR+Rd6302UJZ2p/bJCEoR3VoQ==}
@@ -9013,7 +9014,7 @@ packages:
     resolution: {integrity: sha512-ayCKvm/phCGxOkYRSCM82iDwct8/EonSEgCSxWxD7ve6jHggsFl4fZVQBPRNgQoKiuV/odhFrGzQXZwbifC8Rg==}
     engines: {node: '>=8'}
     dependencies:
-      '@babel/code-frame': 7.21.4
+      '@babel/code-frame': 7.22.5
       error-ex: 1.3.2
       json-parse-even-better-errors: 2.3.1
       lines-and-columns: 1.2.4
@@ -12440,27 +12441,9 @@ packages:
     resolution: {integrity: sha512-2eHWfjaoXgTBC2jNM1LRef62VQa0umtvRiDSk6HSzW7RvS5YtkabJrwYLLEKWBc8a5U2PTSCs+dJjUTJdlHsWQ==}
     engines: {node: '>= 14'}
 
-  /yargs-parser@20.2.9:
-    resolution: {integrity: sha512-y11nGElTIV+CT3Zv9t7VKl+Q3hTQoT9a1Qzezhhl6Rp21gJ/IVTW7Z3y9EWXhuUBC2Shnf+DX0antecpAwSP8w==}
-    engines: {node: '>=10'}
-    dev: true
-
   /yargs-parser@21.1.1:
     resolution: {integrity: sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==}
     engines: {node: '>=12'}
-
-  /yargs@16.2.0:
-    resolution: {integrity: sha512-D1mvvtDG0L5ft/jGWkLpG1+m0eQxOfaBvTNELraWj22wSVUMWxZUvYgJYcKh6jGGIkJFhH4IZPQhR4TKpc8mBw==}
-    engines: {node: '>=10'}
-    dependencies:
-      cliui: 7.0.4
-      escalade: 3.1.1
-      get-caller-file: 2.0.5
-      require-directory: 2.1.1
-      string-width: 4.2.3
-      y18n: 5.0.8
-      yargs-parser: 20.2.9
-    dev: true
 
   /yargs@17.7.2:
     resolution: {integrity: sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==}
