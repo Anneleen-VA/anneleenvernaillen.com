@@ -7,7 +7,5 @@ export default defineNuxtConfig({
     '@nuxthq/studio'
   ],
 
-  devtools: {
-    enabled: true
-  }
+  devtools: true
 })
