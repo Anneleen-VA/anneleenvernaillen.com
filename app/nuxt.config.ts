@@ -18,7 +18,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
     '@vueuse/nuxt',
-    'nuxt-icon'
+    'nuxt-icon',
+    'nuxt-vitest'
   ],
   tailwindcss: {
     viewer: false
