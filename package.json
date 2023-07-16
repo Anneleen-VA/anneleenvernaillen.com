@@ -15,12 +15,12 @@
     "pnpm": ">=7"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.6.2",
+    "@nuxt/kit": "^3.6.3",
     "app": "workspace:^0.6.4"
   },
   "devDependencies": {
     "@nuxt/devtools": "^0.6.7",
     "@nuxthq/studio": "^0.13.4",
-    "nuxt": "^3.6.2"
+    "nuxt": "^3.6.3"
   }
 }
