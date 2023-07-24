@@ -19,7 +19,7 @@
     "app": "workspace:^0.6.4"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^0.6.7",
+    "@nuxt/devtools": "^0.7.1",
     "@nuxthq/studio": "^0.13.4",
     "nuxt": "^3.6.5"
   }
