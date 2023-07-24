@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxt/content',
-    '@nuxt/image-edge',
+    '@nuxt/image',
     '@nuxtjs/google-fonts',
     '@nuxtjs/i18n',
     '@nuxtjs/plausible',
@@ -71,7 +71,7 @@ export default defineNuxtConfig({
   image: {
     provider: 'twicpics',
     twicpics: {
-      baseURL: 'https://vernaillen.twic.pics/anneleen'
+      baseURL: 'https://vernaillen.twic.pics/anneleenvernaillen'
     },
     modifiers: {
       format: 'webp'
