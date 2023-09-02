@@ -6,37 +6,32 @@ const { data: navigation } = await useAsyncData('navigation', () =>
   queryContent('/')
     .where({ navigation: true })
     .sort({ _file: 1 })
-    .find(),
+    .find()
 )
 
 const localePath = useLocalePath()
-function linkClass(path?: string) {
-  if (!path)
-    return ''
+function linkClass (path?: string) {
+  if (!path) { return '' }
   const currentRoute = useRoute().path
   let classToAdd = ''
   if (
-    (path === '/' && currentRoute === localePath('/'))
-    || (path !== '/' && currentRoute.startsWith(localePath(path)))
-  )
-    classToAdd = 'text-white'
+    (path === '/' && currentRoute === localePath('/')) ||
+    (path !== '/' && currentRoute.startsWith(localePath(path)))
+  ) { classToAdd = 'text-white' }
   return classToAdd
 }
 
-function scrollToTop() {
-  scrollToElement('__nuxt')
+function scrollToTop () {
+  scrollToElement('pageTop')
 }
 
 onMounted(() => {
   window.onscroll = function () {
     const backToTop = document.querySelector('.back-to-top') as HTMLElement
     if (
-      document.body.scrollTop > 50
-        || document.documentElement.scrollTop > 50
-    )
-      backToTop.style.display = 'flex'
-    else
-      backToTop.style.display = 'none'
+      document.body.scrollTop > 50 ||
+        document.documentElement.scrollTop > 50
+    ) { backToTop.style.display = 'flex' } else { backToTop.style.display = 'none' }
   }
 })
 </script>
