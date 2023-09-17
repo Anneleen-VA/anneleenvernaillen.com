@@ -20,11 +20,11 @@
   "dependencies": {
     "@nuxt/content": "^2.8.2",
     "@nuxt/image": "1.0.0-rc.1",
-    "@nuxt/kit": "^3.7.1",
+    "@nuxt/kit": "^3.7.3",
     "@nuxt/ui-templates": "^1.3.1",
-    "@tato30/vue-pdf": "^1.7.3",
+    "@tato30/vue-pdf": "^1.7.4",
     "@vernaillen/nuxt-base-layer": "0.2.20",
-    "nuxt": "^3.7.1",
+    "nuxt": "^3.7.3",
     "vue-gtag": "^2.0.1"
   },
   "devDependencies": {
@@ -46,13 +46,13 @@
     "@vueuse/nuxt": "^10.4.1",
     "animate.css": "^4.1.1",
     "consola": "^3.2.3",
-    "cypress": "^13.1.0",
+    "cypress": "^13.2.0",
     "dayjs": "^1.11.9",
     "eslint": "^8.49.0",
-    "happy-dom": "^11.0.2",
+    "happy-dom": "^12.0.1",
     "nuxt-config-schema": "^0.4.6",
     "nuxt-icon": "^0.5.0",
-    "nuxt-vitest": "^0.10.4",
+    "nuxt-vitest": "^0.10.5",
     "pinia": "^2.1.6",
     "remark-directive-rehype": "^0.4.2",
     "sitemap": "^7.1.1",
@@ -60,7 +60,7 @@
     "typescript": "^5.2.2",
     "vee-validate": "^4.11.6",
     "vitest": "0.34.4",
-    "vitest-environment-nuxt": "0.10.4",
+    "vitest-environment-nuxt": "0.10.5",
     "vue-easy-lightbox": "^1.16.0",
     "yup": "^1.2.0"
   }
