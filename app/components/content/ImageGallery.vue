@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ProseA } from '.nuxt/components';
 import { useLightbox } from '../../stores/lightbox'
 
 const props = defineProps({
@@ -7,6 +8,10 @@ const props = defineProps({
     required: true,
   },
   filter: {
+    type: String,
+    required: false,
+  },
+  url: {
     type: String,
     required: false,
   },
@@ -33,8 +38,12 @@ Object.values(import.meta.glob('/public/**')).forEach((imageModule) => {
 })
 
 function openGallery(i: number) {
-  lightbox.setImages(images)
-  lightbox.show(i)
+  if (props.url) {
+    window.open(props.url, '_blank')
+  } else {
+    lightbox.setImages(images)
+    lightbox.show(i)
+  }
 }
 </script>
 
