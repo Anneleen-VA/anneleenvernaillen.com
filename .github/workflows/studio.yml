@@ -66,6 +66,12 @@ jobs:
       - name: Create .nuxtrc
         run: echo '\nautoImport=true\nmodules[]=@nuxthq/studio' >> .nuxtrc
 
+      - name: Build App
+        run: ${{ steps.pkgman.outputs.package_manager }} --filter ./app/ run build
+        env:
+          NUXT_PUBLIC_STUDIO_API_URL: https://api.nuxt.studio
+          NUXT_PUBLIC_STUDIO_TOKENS: d3c191a9106d5ff8a7058780e96106c6af48d3e71537fac5cd342df18eb62ba4
+          
       - name: Generate
         run: npx nuxi generate
         env:
