@@ -69,10 +69,7 @@ export default defineNuxtConfig({
     }
   },
   image: {
-    provider: 'twicpics',
-    twicpics: {
-      baseURL: 'https://vernaillen.twic.pics/anneleenvernaillen'
-    },
+    provider: 'vercel',
     modifiers: {
       format: 'webp'
     }
