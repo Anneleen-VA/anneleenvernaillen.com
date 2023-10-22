@@ -2,12 +2,11 @@ version: 2.1
 
 orbs:
   slack: circleci/slack@4.12.5
-  sonarcloud: sonarsource/sonarcloud@1.1.1
 
 executors:
   pnpm-executor:
     docker:
-      - image: cimg/node:20.5.0-browsers
+      - image: cimg/node:18.18-browsers
 
 jobs:
   build:
@@ -35,7 +34,6 @@ jobs:
       - run:
           name: Test
           command: pnpm --filter ./app/ run coverage
-      - sonarcloud/scan
       - slack/notify:
           channel: circleci
           event: always
@@ -46,6 +44,5 @@ workflows:
       - build:
           context:
             - Slack
-            - SonarCloud
 
 # VS Code Extension Version: 1.5.1
