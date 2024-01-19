@@ -16,10 +16,10 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxtjs/plausible',
     '@nuxtjs/tailwindcss',
+    '@nuxt/test-utils/module',
     '@pinia/nuxt',
     '@vueuse/nuxt',
-    'nuxt-icon',
-    'nuxt-vitest'
+    'nuxt-icon'
   ],
   tailwindcss: {
     viewer: false
