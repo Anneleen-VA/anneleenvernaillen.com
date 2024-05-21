@@ -3,9 +3,7 @@ export default defineNuxtConfig({
     './app',
   ],
 
-  modules: [
-    '@nuxthq/studio'
-  ],
+  modules: ['@nuxthq/studio'],
 
   devtools: true
 })

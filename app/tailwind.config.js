@@ -27,12 +27,38 @@ module.exports = {
       colors: {
         white: '#FFFEFD',
         black: '#222222',
-        gray: '#707070',
-        primary: '#DCD8D1'
+        dovegray: {
+          DEFAULT: '#707070',
+          50: '#CCCCCC',
+          100: '#C2C2C2',
+          200: '#ADADAD',
+          300: '#999999',
+          400: '#848484',
+          500: '#707070',
+          600: '#545454',
+          700: '#383838',
+          800: '#1C1C1C',
+          900: '#000000',
+          950: '#000000'
+        },
+        westar: {
+          DEFAULT: '#DCD8D1',
+          50: '#FFFFFF',
+          100: '#FFFFFF',
+          200: '#FFFFFF',
+          300: '#FFFFFF',
+          400: '#EEECE8',
+          500: '#DCD8D1',
+          600: '#C4BDB1',
+          700: '#ACA291',
+          800: '#938771',
+          900: '#746A58',
+          950: '#645C4C'
+        },
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        serif: ['Inter', 'serif']
+        sans: ['Poppins', 'sans-serif'],
+        serif: ['Poppins', 'serif']
       }
     }
   },

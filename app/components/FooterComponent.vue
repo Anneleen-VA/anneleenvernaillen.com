@@ -53,14 +53,14 @@ onMounted(() => {
           </NuxtLink>
         </div>
         <div class="sm:order-3 w-full sm:w-1/4 lg:w-1/5 px-10 mt-[50px] sm:my-0 sm:justify-end text-center sm:text-end">
-          <SocialIcons colors="text-primary hover:text-white" />
+          <SocialIcons colors="text-primary-500 hover:text-white" />
         </div>
         <div class="sm:order-2 w-full sm:w-2/4 lg:w-3/5 mt-10 mb-6 sm:my-0">
           <ul class="flex-wrap flex-col xl:border-l-dark-900 xl:border-l-2 sm:columns-2 lg:columns-3 text-center sm:text-left">
             <li v-for="item, index in navigation" :key="index" class="relative group align-bottom text-center sm:text-left">
               <NuxtLink
                 :to="item._path"
-                class="text-primary hover:text-white uppercase overflow-hidden leading-4 align-bottom py-2 xl:inline-flex xl:pl-1 xl:pr-0 xl:py-2 xl:ml-2 xl:mr-3"
+                class="text-primary-500 hover:text-white uppercase overflow-hidden leading-4 align-bottom py-2 xl:inline-flex xl:pl-1 xl:pr-0 xl:py-2 xl:ml-2 xl:mr-3"
                 :class="linkClass(item._path)"
               >
                 {{ item.title }}
@@ -71,7 +71,7 @@ onMounted(() => {
       </div>
     </div>
   </div>
-  <div class="bg-black w-full border-t-[1px] border-primary">
+  <div class="bg-black w-full border-t-[1px] border-primary-500">
     <div class="container max-w-screen-xl my-0 grid grid-cols-1 sm:grid-cols-3">
       <div class="text-center sm:text-left sm:flex sm:flex-wrap">
         <div class="w-full px-4 sm:px-6 lg:px-8 py-3 text-white text-xs">
@@ -80,10 +80,10 @@ onMounted(() => {
       </div>
       <div class="text-center sm:flex sm:flex-wrap">
         <div class="w-full px-4 sm:px-6 lg:px-8 pb-3 sm:py-3 text-white text-xs">
-          <NuxtLink href="/privacypolicy" class="hover:text-primary">
+          <NuxtLink href="/privacypolicy" class="hover:text-primary-500">
             {{ t('footer.privacypolicy') }}
           </NuxtLink> -
-          <NuxtLink href="/cookiepolicy" class="hover:text-primary">
+          <NuxtLink href="/cookiepolicy" class="hover:text-primary-500">
             {{ t('footer.cookiepolicy') }}
           </NuxtLink>
         </div>
@@ -93,9 +93,9 @@ onMounted(() => {
           <span class="sm:text-right">
             {{ t('footer.developed_with') }}
             <NuxtLink href="https://nuxt.com/" target="_blank">
-              <Icon name="simple-icons:nuxtdotjs" class="hover:text-primary" />
+              <Icon name="simple-icons:nuxtdotjs" class="hover:text-primary-500" />
             </NuxtLink>
-            {{ t('news.by') }} <NuxtLink href="https://vernaillen.dev" class="hover:text-primary" target="_blank">
+            {{ t('news.by') }} <NuxtLink href="https://vernaillen.dev" class="hover:text-primary-500" target="_blank">
               Wouter Vernaillen
             </NuxtLink>
           </span>
@@ -105,7 +105,7 @@ onMounted(() => {
   </div>
   <button
     class="back-to-top hidden items-center justify-center
-    bg-gray text-white w-10 h-10
+    bg-gray-500 text-white w-10 h-10
     rounded-md fixed bottom-8 right-8 left-auto z-[999]
     cursor-pointer
     hover:shadow-signUp hover:bg-opacity-80

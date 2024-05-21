@@ -26,7 +26,7 @@ function linkClass(path?: string) {
     <li v-for="item, index in navigation" :key="index" class="relative group align-bottom">
       <NuxtLink
         :to="item._path"
-        class="text-gray uppercase overflow-hidden leading-4 align-bottom flex py-5 pl-2 pr-10
+        class="text-gray-500 uppercase overflow-hidden leading-4 align-bottom flex py-5 pl-2 pr-10
         text-lg xl:text-base
         sm:py-6
         xl:inline-flex xl:pl-1 xl:pr-0 xl:py-2 xl:ml-2 xl:mr-3"

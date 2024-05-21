@@ -11,7 +11,7 @@ setMetaData('Home')
     <NuxtLayout>
       <HeaderImage />
       <HighlightPages />
-      <div class="bg-primary bg-opacity-[35%] w-full">
+      <div class="bg-primary-500 bg-opacity-[35%] w-full">
         <div class="container max-w-screen-xl my-12 sm:my-16 xl:my-20">
           <div class="flex flex-wrap">
             <div class="w-full px-4 sm:px-6 lg:px-8 my-12 sm:my-16 xl:my-20 mb-16">

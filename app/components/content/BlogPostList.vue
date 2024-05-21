@@ -30,7 +30,7 @@ function animateDurationClass(index: number) {
         <h3 class="!mb-1">
           <NuxtLink
             :aria-label="post.title" :to="post._path"
-            class="!font-light text-primary dark:text-white text-xl sm:text-2xl block hover:bg-opacity-80"
+            class="!font-light text-primary-500 dark:text-white text-xl sm:text-2xl block hover:bg-opacity-80"
           >
             {{ post.title }}
           </NuxtLink>

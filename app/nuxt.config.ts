@@ -12,14 +12,14 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     '@nuxt/image',
-    '@nuxtjs/google-fonts',
+    '@nuxt/fonts',
     '@nuxtjs/i18n',
     '@nuxtjs/plausible',
-    '@nuxtjs/tailwindcss',
     '@nuxt/test-utils/module',
     '@pinia/nuxt',
     '@vueuse/nuxt',
-    'nuxt-icon'
+    'nuxt-icon',
+    "@nuxt/ui"
   ],
   tailwindcss: {
     viewer: false
@@ -32,14 +32,13 @@ export default defineNuxtConfig({
   plausible: {
     apiHost: 'https://anneleenvernaillen.com/plio'
   },
-  googleFonts: {
-    download: true,
-    display: 'swap',
-    families: {
-      Poppins: {
-        wght: [200, 300, 400, 500, 700],
-        ital: [200, 300, 400, 500, 700]
-      }
+  fonts: {
+    families: [
+      { name: 'Poppins', provider: 'google' },
+    ],
+    defaults: {
+      weights: [200, 300, 400, 500, 700],
+      styles: ['normal', 'italic'],
     }
   },
   content: {

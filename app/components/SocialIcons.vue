@@ -12,7 +12,7 @@ const props = defineProps({
   },
   colors: {
     type: String,
-    default: 'text-gray hover:text-black',
+    default: 'text-gray-500 hover:text-black',
     required: false,
   },
 })

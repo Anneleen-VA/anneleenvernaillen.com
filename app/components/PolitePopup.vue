@@ -27,7 +27,7 @@ function onClickClose() {
       lg:left-1/2
       p-5
       rounded-lg
-      shadow-lg shadow-gray
+      shadow-lg shadow-gray-500
       bg-opacity-[97%]
       bg-white
       animate__animated animate__slideInUp
@@ -41,7 +41,7 @@ function onClickClose() {
       <button class="text-base font-medium text-white bg-black py-1 px-3 hover:bg-opacity-80 hover:shadow-signUp rounded-lg" @click="onClickOk">
         {{ t('politePopup.yes') }}
       </button>
-      <button class="bg-gray-200 text-base font-medium bg-primary py-1 px-3 hover:bg-opacity-80 hover:shadow-signUp rounded-lg" @click="onClickClose">
+      <button class="bg-gray-200 text-base font-medium bg-primary-500 py-1 px-3 hover:bg-opacity-80 hover:shadow-signUp rounded-lg" @click="onClickClose">
         {{ t('politePopup.no') }}
       </button>
     </div>

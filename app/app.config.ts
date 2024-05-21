@@ -1,4 +1,8 @@
 export default defineAppConfig({
+  ui: {
+    primary: 'westar',
+    gray: 'dovegray'
+  },
   socials: [
     {
       title: 'Instagram',
