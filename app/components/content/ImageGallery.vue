@@ -48,9 +48,9 @@ function openGallery(i: number) {
 </script>
 
 <template>
-  <div class="columns-2 md:columns-3 lg:columns-4 mx-[-8px] mb-20">
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-4 mx-[-8px] mb-20">
     <div v-for="(image, index) in imageThumbnails" :key="index" class="px-0 md:px-1">
-      <div class="galleryImgWrapper rounded-lg overflow-hidden relative mb-4 md:mb-6 shadow-md shadow-gray-800">
+      <div class="galleryImgWrapper rounded-lg overflow-hidden relative mb-2 shadow-md shadow-gray-800">
         <NuxtImg :src="image" class="rounded-lg cursor-pointer w-full" :alt="image" @click="openGallery(index)" />
       </div>
     </div>
