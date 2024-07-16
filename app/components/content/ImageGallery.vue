@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ProseA } from '.nuxt/components';
 import { useLightbox } from '../../stores/lightbox'
 
 const props = defineProps({
