@@ -19,15 +19,15 @@ const $img = useImage()
 const lightbox = useLightbox()
 const images: string[] = []
 const imageThumbnails: string[] = []
-Object.values(import.meta.glob('/public/**')).forEach((imageModule) => {
+Object.values(import.meta.glob('~~/public/**')).forEach((imageModule) => {
   if (
     imageModule.name
-    && imageModule.name.startsWith(`/public${props.folder}`)
+    && imageModule.name.startsWith(`../public${props.folder}`)
     && (props.filter == null
       || props.filter === ''
       || imageModule.name.indexOf(props.filter) > 0)
   ) {
-    const imgPath = imageModule.name.substring('/public'.length)
+    const imgPath = imageModule.name.substring('../public'.length)
     const imgTwicPicUrl = $img(imgPath, {
       format: 'webp',
     })
